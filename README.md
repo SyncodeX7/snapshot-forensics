@@ -148,6 +148,50 @@ out/                         dumps, extractions, analysis, benchmark results
 
 ---
 
+## Prebuilt release artifacts
+
+If you do not want to build EDK II and the guest, the
+[v0.1.0 release](https://github.com/SyncodeX7/snapshot-forensics/releases/tag/v0.1.0)
+contains the exact binaries and a sample capture used for the benchmark in this
+README:
+
+| Asset | Size | What it is |
+|-------|------|------------|
+| `OVMF_CODE.fd` | 3.5 MiB | OVMF built with `SMM_REQUIRE=TRUE`, mode A, 8 s period |
+| `OVMF_VARS.fd` | 528 KiB | Matching variable-store template |
+| `esp.img` | 64 MiB | FAT32 ESP with the minimal Linux guest |
+| `linux-6.12.58.json` | 50 MiB | Volatility 3 ISF for the guest kernel |
+| `ram-12-A.raw.zst` | 52 MiB | Complete mode-A snapshot, 109,016 pages, zstd-compressed |
+| `snapshot-12-A.json` | 4 KiB | Extraction metadata for the sample (coverage, hashes) |
+| `sample-pslist.txt` | 8 KiB | Expected `linux.pslist` output for the sample |
+| `SHA256SUMS` | 1 KiB | Checksums for every asset |
+
+Verify and run the prebuilt firmware:
+
+```bash
+sha256sum -c SHA256SUMS
+
+scripts/run_qemu.sh \
+  --code OVMF_CODE.fd --vars OVMF_VARS.fd --esp esp.img \
+  --mem 1G --seconds 60
+```
+
+Analyze the sample image directly:
+
+```bash
+zstd -d ram-12-A.raw.zst
+mkdir -p out/isf && cp linux-6.12.58.json out/isf/
+tools/venv/bin/vol -s out/isf -f ram-12-A.raw linux.pslist
+```
+
+The sample should list `init` and `snapw0`–`snapw3`; compare with
+`sample-pslist.txt`. To use the prebuilt firmware with GNOME Boxes, point the
+domain's `<loader>` and `<nvram template>` at these two files (or replace the
+built files under `edk2/Build/OvmfX64/DEBUG_GCC/FV/` after running
+`scripts/setup_edk2.sh`).
+
+---
+
 ## Build
 
 Prerequisites used here: `gcc`, `nasm`, `python3`, `qemu-system-x86_64`, `mtools`
