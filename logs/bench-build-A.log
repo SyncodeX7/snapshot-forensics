@@ -1,0 +1,899 @@
+Build environment: Linux-7.2.9-1-cachyos-x86_64-with-glibc2.44
+SOURCE_DATE_EPOCH not set - using 1795332131
+Build start time: 12:52:11, Nov.22 2026
+
+WORKSPACE        = /home/aditya/snapshot-forensics/edk2
+PACKAGES_PATH    = /home/aditya/snapshot-forensics/edk2:/home/aditya/snapshot-forensics
+EDK_TOOLS_PATH   = /home/aditya/snapshot-forensics/edk2/BaseTools
+CONF_PATH        = /home/aditya/snapshot-forensics/edk2/Conf
+PYTHON_COMMAND   = python3
+
+
+Processing meta-data 
+.Architecture(s)  = X64
+Build target     = DEBUG
+Toolchain        = GCC
+
+Active Platform          = /home/aditya/snapshot-forensics/edk2/OvmfPkg/OvmfPkgX64.dsc
+.... done!
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/BasePciCapPciSegmentLib/BasePciCapPciSegmentLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/BasePciCapLib/BasePciCapLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/UefiDevicePathLibDevicePathProtocol/UefiDevicePathLibDevicePathProtocol.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/StackCheckLibNull/StackCheckLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BasePciSegmentLibPci/BasePciSegmentLibPci.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BaseOrderedCollectionRedBlackTreeLib/BaseOrderedCollectionRedBlackTreeLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/DxePciLibI440FxQ35/DxePciLibI440FxQ35.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BasePciCf8Lib/BasePciCf8Lib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BasePciExpressLib/BasePciExpressLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/PlatformDebugLibIoPort/PlatformDebugLibIoPort.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BasePrintLib/BasePrintLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/MemDebugLogLib/MemDebugLogLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/CcProbeLibNull/CcProbeLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/TdxLib/TdxLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BaseLib/BaseLib.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/DxePcdLib/DxePcdLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/BlobVerifierLibNull/BlobVerifierLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BaseRngLib/BaseRngLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/DxeCapsuleLibNull/DxeCapsuleLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/UefiUsbLib/UefiUsbLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/DeviceManagerUiLib/DeviceManagerUiLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/ResetVector/ResetVector.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/SmmLockBoxLib/SmmLockBoxPeiLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/SmmCorePlatformHookLibNull/SmmCorePlatformHookLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/PiSmmCoreSmmServicesTableLib/PiSmmCoreSmmServicesTableLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/PiSmmCoreMemoryAllocationLib/PiSmmCoreMemoryAllocationLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/MpInitLibDepLib/DxeMpInitLibUpDepLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/NestedInterruptTplLib/NestedInterruptTplLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/PlatformBootManagerLib/PlatformBootManagerLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/BootLogoLib/BootLogoLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/NvVarsFileLib/NvVarsFileLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/X86QemuLoadImageLib/X86QemuLoadImageLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/QemuBootOrderLib/QemuBootOrderLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/PlatformBmPrintScLib/PlatformBmPrintScLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/Tcg2PhysicalPresenceLibNull/DxeTcg2PhysicalPresenceLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/XenPlatformLib/XenPlatformLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/PlatformBootManagerCommonLib/PlatformBootManagerCommonLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/SerializeVariablesLib/SerializeVariablesLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/LoadLinuxLib/LoadLinuxLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/FileExplorerLib/FileExplorerLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/CustomizedDisplayLib/CustomizedDisplayLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/Library/DxeHttpLib/DxeHttpLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/Library/DxeTcpIoLib/DxeTcpIoLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/Library/DxeUdpIoLib/DxeUdpIoLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/UefiPciCapPciIoLib/UefiPciCapPciIoLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/SmmLockBoxLib/SmmLockBoxSmmLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/SmbiosVersionLib/DetectSmbiosVersionLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/VarCheckPolicyLib/VarCheckPolicyLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/VarCheckUefiLib/VarCheckUefiLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/AuthVariableLibNull/AuthVariableLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/VariablePolicyLib/VariablePolicyLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/VarCheckLib/VarCheckLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/MpInitLibDepLib/PeiMpInitLibMpDepLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Library/MpInitLib/PeiMpInitLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/PeiExtractGuidedSectionLib/PeiExtractGuidedSectionLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/AcpiPlatformLib/DxeAcpiPlatformLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/IncompatiblePciDeviceSupportDxe/IncompatiblePciDeviceSupport.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/EmbeddedPkg/Library/TimeBaseLib/TimeBaseLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/WsmtDxe/WsmtDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/SecurityPkg/Library/HashInstanceLibSha384/HashInstanceLibSha384.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/SecurityPkg/Library/Tpm2HelpLib/Tpm2HelpLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/IntelTdx/TdxMeasurementLib/DxeTdxMeasurementLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/SecurityPkg/Library/DxeTpmMeasurementLib/DxeTpmMeasurementLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/HashLibTdx/HashLibTdx.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Library/SmmCpuSyncLib/SmmCpuSyncLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Library/MmSaveStateLib/AmdMmSaveStateLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/SmmCpuFeaturesLib/SmmCpuFeaturesLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Library/CpuExceptionHandlerLib/SmmCpuExceptionHandlerLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/SmmCpuPlatformHookLibQemu/SmmCpuPlatformHookLibQemu.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Library/AmdSysCallLibNull/AmdSysCallLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/MmUnblockMemoryLib/MmUnblockMemoryLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/IntelTdx/TdxHelperLib/SecTdxHelperLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Library/CpuExceptionHandlerLib/SecPeiCpuExceptionHandlerLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/TdxMailboxLib/TdxMailboxLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BaseExtractGuidedSectionLib/BaseExtractGuidedSectionLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/CryptoPkg/Library/BaseCryptLib/SecCryptLib.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/BaseMemEncryptSevLib/SecMemEncryptSevLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/CcExitLib/SecCcExitLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/IntelTdx/TdxHelperLib/PeiTdxHelperLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/SmmRelocationLib/SmmRelocationLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/PlatformInitLib/PlatformInitLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/QemuFwCfgS3Lib/PeiQemuFwCfgS3LibFwCfg.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/PeiResourcePublicationLib/PeiResourcePublicationLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/HardwareInfoLib/PeiHardwareInfoLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/QemuFwCfgLib/QemuFwCfgPeiLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/SecurityPkg/Library/PeiTpmMeasurementLib/PeiTpmMeasurementLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/PeiCoreEntryPoint/PeiCoreEntryPoint.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Library/CcExitLibNull/CcExitLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/DxeHstiLib/DxeHstiLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/SmmMemLib/SmmMemLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/QemuFwCfgS3Lib/DxeQemuFwCfgS3LibFwCfg.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/BaseBmpSupportLib/BaseBmpSupportLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/BaseVariableFlashInfoLib/BaseVariableFlashInfoLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/PiDxeS3BootScriptLib/DxeS3BootScriptLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BaseSmbusLibNull/BaseSmbusLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/MpInitLibDepLib/PeiMpInitLibUpDepLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Library/CpuExceptionHandlerLib/PeiCpuExceptionHandlerLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Library/MpInitLibUp/MpInitLibUp.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/BaseMemEncryptSevLib/PeiMemEncryptSevLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/CpuIo2Dxe/CpuIo2Dxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/DpcDxe/DpcDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/UefiScsiLib/UefiScsiLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/PlatformHasIoMmuLib/PlatformHasIoMmuLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/PciHostBridgeLib/PciHostBridgeLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/PciHostBridgeUtilityLib/PciHostBridgeUtilityLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/HardwareInfoLib/DxeHardwareInfoLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/MpInitLibDepLib/DxeMpInitLibMpDepLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Library/MpInitLib/DxeMpInitLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Library/MicrocodeLib/MicrocodeLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Library/CpuPageTableLib/CpuPageTableLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/BaseMemEncryptTdxLib/BaseMemEncryptTdxLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/SmmLockBoxLib/SmmLockBoxDxeLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Library/MtrrLib/MtrrLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/PeiReportStatusCodeLib/PeiReportStatusCodeLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/OemHookStatusCodeLibNull/OemHookStatusCodeLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BasePcdLibNull/BasePcdLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/UefiDriverEntryPointFwCfgOverrideLib/UefiDriverEntryPointFwCfgOverrideLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/Library/UefiShellNetwork1CommandsLib/UefiShellNetwork1CommandsLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/Library/UefiShellInstall1CommandsLib/UefiShellInstall1CommandsLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/Library/UefiShellDebug1CommandsLib/UefiShellDebug1CommandsLib.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/Library/UefiShellDriver1CommandsLib/UefiShellDriver1CommandsLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/Library/UefiShellLevel3CommandsLib/UefiShellLevel3CommandsLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/Library/UefiShellLevel2CommandsLib/UefiShellLevel2CommandsLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/Library/UefiShellBcfgCommandLib/UefiShellBcfgCommandLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/Library/UefiShellCommandLib/UefiShellCommandLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/Library/UefiHandleParsingLib/UefiHandleParsingLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/ResetSystemLib/DxeResetSystemLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/Library/DxeIpIoLib/DxeIpIoLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/MmServicesTableLib/MmServicesTableLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/SmmMemoryAllocationLib/SmmMemoryAllocationLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/SmmServicesTableLib/SmmServicesTableLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/RuntimeDxeReportStatusCodeLib/RuntimeDxeReportStatusCodeLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/UefiRuntimeLib/UefiRuntimeLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/IntelTdx/TdxMeasurementLib/SecPeiTdxMeasurementLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/PeimEntryPoint/PeimEntryPoint.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/CryptoPkg/Library/BaseCryptLib/PeiCryptLib.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/AcpiTimerLib/BaseRomAcpiTimerLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/PlatformDebugLibIoPort/PlatformRomDebugLibIoPort.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/CcProbeLib/SecPeiCcProbeLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/PeiHobLib/PeiHobLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/PeiServicesLib/PeiServicesLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/PeiPcdLib/PeiPcdLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/PeiMemoryAllocationLib/PeiMemoryAllocationLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/PeiServicesTablePointerLibIdt/PeiServicesTablePointerLibIdt.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/Library/UefiShellLib/UefiShellLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/UefiFileHandleLib/UefiFileHandleLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/SecurityPkg/Library/DxeTpm2MeasureBootLib/DxeTpm2MeasureBootLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/DxeSecurityManagementLib/DxeSecurityManagementLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/GptLib/GptLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/UefiSortLib/UefiSortLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/VariablePolicyHelperLib/VariablePolicyHelperLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/FrameBufferBltLib/FrameBufferBltLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/PxeBcPcdProducerLib/PxeBcPcdProducerLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/Library/DxeDpcLib/DxeDpcLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/Library/DxeNetLib/DxeNetLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/QemuFwCfgSimpleParserLib/QemuFwCfgSimpleParserLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/QemuFwCfgLib/QemuFwCfgDxeLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/CryptoPkg/Library/BaseCryptLib/BaseCryptLib.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/CryptoPkg/Library/OpensslLib/OpensslLibCrypto.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/CryptoPkg/Library/IntrinsicLib/IntrinsicLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/BaseRngLibTimerLib/BaseRngLibTimerLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/AcpiTimerLib/DxeAcpiTimerLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/DxeHobLib/DxeHobLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/ImagePropertiesRecordLib/ImagePropertiesRecordLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Library/CpuExceptionHandlerLib/DxeCpuExceptionHandlerLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/DebugAgentLibNull/DebugAgentLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/DxeServicesLib/DxeServicesLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BasePeCoffLib/BasePeCoffLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BasePerformanceLibNull/BasePerformanceLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BaseUefiDecompressLib/BaseUefiDecompressLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/PcAtChipsetPkg/Library/SerialIoLib/SerialIoLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/DxeCoreHobLib/DxeCoreHobLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BasePeCoffExtraActionLibNull/BasePeCoffExtraActionLibNull.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BaseSafeIntLib/BaseSafeIntLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/DxeCoreEntryPoint/DxeCoreEntryPoint.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/AcpiTimerLib/BaseAcpiTimerLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BasePciLibCf8/BasePciLibCf8.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/BaseMemEncryptSevLib/DxeMemEncryptSevLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BaseCacheMaintenanceLib/BaseCacheMaintenanceLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/CcExitLib/CcExitLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Library/BaseXApicX2ApicLib/BaseXApicX2ApicLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/AmdSvsmLib/AmdSvsmLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/BaseCpuLib/BaseCpuLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Library/VirtioLib/VirtioLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/UefiLib/UefiLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/PciHotPlugInitDxe/PciHotPlugInit.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/QemuKernelLoaderFsDxe/QemuKernelLoaderFsDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/SecurityPkg/RandomNumberGenerator/RngDxe/RngDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/MnpDxe/MnpDxe.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/SmbiosPlatformDxe/SmbiosPlatformDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe/ReportStatusCodeRouterRuntimeDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Variable/RuntimeDxe/VariableSmmRuntimeDxe.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/SmmAccess/SmmAccessPei.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Usb/UsbKbDxe/UsbKbDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/SecurityPkg/Tcg/MemoryOverwriteControl/TcgMor.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/VirtioPciDeviceDxe/VirtioPciDeviceDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/SnpDxe/SnpDxe.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Ata/AtaBusDxe/AtaBusDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Pci/SdMmcPciHcDxe/SdMmcPciHcDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Application/UiApp/UiApp.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/VirtioScsiDxe/VirtioScsi.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/ArpDxe/ArpDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/VirtioNetDxe/VirtioNet.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/Universal/Acpi/S3Resume2Pei/S3Resume2Pei.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Acpi/S3SaveStateDxe/S3SaveStateDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/SmbiosMeasurementDxe/SmbiosMeasurementDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/CpuIo2Smm/CpuIo2Smm.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Core/PiSmmCore/PiSmmCore.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/VirtioBlkDxe/VirtioBlk.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/Conf/.cache/6490f1c5-ebcc-4665-8892-0075b9bb49b7CpuDxe.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/VirtioInputDxe/VirtioInput.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Pci/PciSioSerialDxe/PciSioSerialDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/EbcDxe/EbcDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/PCD/Dxe/Pcd.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Pci/CxlDxe/CxlDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/LocalApicTimerDxe/LocalApicTimerDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/Mtftp4Dxe/Mtftp4Dxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Core/PiSmmCore/PiSmmIpl.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/BdsDxe/BdsDxe.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Disk/RamDiskDxe/RamDiskDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/TdxDxe/TdxDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/StatusCodeHandlerRuntimeDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Scsi/ScsiBusDxe/ScsiBusDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/SecurityPkg/Tcg/MemoryOverwriteRequestControlLock/TcgMorLockSmm.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Usb/UsbMassStorageDxe/UsbMassStorageDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/DynamicCommand/HttpDynamicCommand/HttpDynamicCommand.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/Dhcp4Dxe/Dhcp4Dxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/ReportStatusCodeRouter/Pei/ReportStatusCodeRouterPei.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Pci/NvmExpressDxe/NvmExpressDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Virtio10Dxe/Virtio10.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/LockBox/SmmLockBox/SmmLockBox.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/FatPkg/EnhancedFatDxe/Fat.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Pci/XhciDxe/XhciDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Variable/RuntimeDxe/VariableSmm.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Pci/SataControllerDxe/SataControllerDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/CpuMpPei/CpuMpPei.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Logo/LogoDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Core/DxeIplPeim/DxeIpl.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Metronome/Metronome.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/AcpiPlatformDxe/AcpiPlatformDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/SmmAccess/SmmAccess2Dxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver.inf [X64]
+"gcc" -MMD -MF /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/AutoGen.obj.deps -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -fstack-protector -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=SmmSnapshotDriverStrings -mstack-protector-guard=global -m64 "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -fno-omit-frame-pointer -flto -DUSING_LTO -mno-mmx -mno-sse -D DISABLE_NEW_DEPRECATED_INTERFACES -D TDX_GUEST_SUPPORTED -D ENABLE_MD5_DEPRECATED_INTERFACES -c -o /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/./AutoGen.obj -I/home/aditya/snapshot-forensics/SnapshotPkg/SmmSnapshotDriver -I/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG -I/home/aditya/snapshot-forensics/edk2/MdePkg -I/home/aditya/snapshot-forensics/edk2/MdePkg/Include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Test/UnitTest/Include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Test/Mock/Include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Library/MipiSysTLib/mipisyst/library/include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Include/X64 -I/home/aditya/snapshot-forensics/SnapshotPkg -I/home/aditya/snapshot-forensics/SnapshotPkg/Include /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG/AutoGen.c
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/TimestampDxe/TimestampDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/MonotonicCounterRuntimeDxe/MonotonicCounterRuntimeDxe.inf [X64]
+"gcc" -MMD -MF /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/SmmSnapshotDriver.obj.deps -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -fstack-protector -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=SmmSnapshotDriverStrings -mstack-protector-guard=global -m64 "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -fno-omit-frame-pointer -flto -DUSING_LTO -mno-mmx -mno-sse -D DISABLE_NEW_DEPRECATED_INTERFACES -D TDX_GUEST_SUPPORTED -D ENABLE_MD5_DEPRECATED_INTERFACES -c -o /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/./SmmSnapshotDriver.obj -I/home/aditya/snapshot-forensics/SnapshotPkg/SmmSnapshotDriver -I/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG -I/home/aditya/snapshot-forensics/edk2/MdePkg -I/home/aditya/snapshot-forensics/edk2/MdePkg/Include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Test/UnitTest/Include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Test/Mock/Include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Library/MipiSysTLib/mipisyst/library/include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Include/X64 -I/home/aditya/snapshot-forensics/SnapshotPkg -I/home/aditya/snapshot-forensics/SnapshotPkg/Include /home/aditya/snapshot-forensics/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver.c
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/DynamicCommand/DpDynamicCommand/DpDynamicCommand.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/VirtioFsDxe/VirtioFsDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/SnapshotPkg/SnapshotDxe/SnapshotDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+"gcc" -MMD -MF /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/AutoGen.obj.deps -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -fstack-protector -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=SnapshotDxeStrings -mstack-protector-guard=global -m64 "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -fno-omit-frame-pointer -flto -DUSING_LTO -mno-mmx -mno-sse -D DISABLE_NEW_DEPRECATED_INTERFACES -D TDX_GUEST_SUPPORTED -D ENABLE_MD5_DEPRECATED_INTERFACES -c -o /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/./AutoGen.obj -I/home/aditya/snapshot-forensics/SnapshotPkg/SnapshotDxe -I/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG -I/home/aditya/snapshot-forensics/edk2/MdePkg -I/home/aditya/snapshot-forensics/edk2/MdePkg/Include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Test/UnitTest/Include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Test/Mock/Include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Library/MipiSysTLib/mipisyst/library/include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Include/X64 -I/home/aditya/snapshot-forensics/edk2/MdeModulePkg -I/home/aditya/snapshot-forensics/edk2/MdeModulePkg/Test/Mock/Include -I/home/aditya/snapshot-forensics/edk2/MdeModulePkg/Include -I/home/aditya/snapshot-forensics/SnapshotPkg -I/home/aditya/snapshot-forensics/SnapshotPkg/Include /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG/AutoGen.c
+Building ... /home/aditya/snapshot-forensics/SnapshotPkg/SmmPeriodicTimerDxe/SmmPeriodicTimerDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/PCD/Pei/Pcd.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/LinuxInitrdDynamicShellCommand/LinuxInitrdDynamicShellCommand.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Console/ConSplitterDxe/ConSplitterDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+"gcc" -MMD -MF /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/SnapshotDxe.obj.deps -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -fstack-protector -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=SnapshotDxeStrings -mstack-protector-guard=global -m64 "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -fno-omit-frame-pointer -flto -DUSING_LTO -mno-mmx -mno-sse -D DISABLE_NEW_DEPRECATED_INTERFACES -D TDX_GUEST_SUPPORTED -D ENABLE_MD5_DEPRECATED_INTERFACES -c -o /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/./SnapshotDxe.obj -I/home/aditya/snapshot-forensics/SnapshotPkg/SnapshotDxe -I/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG -I/home/aditya/snapshot-forensics/edk2/MdePkg -I/home/aditya/snapshot-forensics/edk2/MdePkg/Include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Test/UnitTest/Include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Test/Mock/Include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Library/MipiSysTLib/mipisyst/library/include -I/home/aditya/snapshot-forensics/edk2/MdePkg/Include/X64 -I/home/aditya/snapshot-forensics/edk2/MdeModulePkg -I/home/aditya/snapshot-forensics/edk2/MdeModulePkg/Test/Mock/Include -I/home/aditya/snapshot-forensics/edk2/MdeModulePkg/Include -I/home/aditya/snapshot-forensics/SnapshotPkg -I/home/aditya/snapshot-forensics/SnapshotPkg/Include /home/aditya/snapshot-forensics/SnapshotPkg/SnapshotDxe/SnapshotDxe.c
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/PiSmmCpuDxeSmm/PiSmmCpuDxeSmm.inf [X64]
+rm -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/SmmSnapshotDriver.lib
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf [X64]
+"gcc-ar" cr /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/SmmSnapshotDriver.lib  @/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/object_files.lst
+"gcc" -o /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG/SmmSnapshotDriver.dll -nostdlib -Wl,-n,-q,--gc-sections -z common-page-size=0x40 -Wl,--entry,_ModuleEntryPoint -u _ModuleEntryPoint -Wl,-Map,/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG/SmmSnapshotDriver.map,--whole-archive -Wl,-melf_x86_64,--oformat=elf64-x86-64,-pie -Wl,--fatal-warnings -Wl,-z,noexecstack -Wl,-z,notext -flto -Os -z common-page-size=0x1000 -z common-page-size=0x1000 -Wl,--start-group,@/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/static_library_files.lst,--end-group -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -fstack-protector -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=SmmSnapshotDriverStrings -mstack-protector-guard=global -m64 "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -fno-omit-frame-pointer -flto -DUSING_LTO -mno-mmx -mno-sse -D DISABLE_NEW_DEPRECATED_INTERFACES -D TDX_GUEST_SUPPORTED -D ENABLE_MD5_DEPRECATED_INTERFACES -Wl,--defsym=PECOFF_HEADER_SIZE=0x228 -Wl,--script=/home/aditya/snapshot-forensics/edk2/BaseTools/Scripts/GccBase.lds -Wno-error
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Disk/UdfDxe/UdfDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Variable/Pei/VariablePei.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Application/BootManagerMenuApp/BootManagerMenuApp.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Pci/UhciDxe/UhciDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Core/Pei/PeiMain.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/QemuFlashFvbServicesRuntimeDxe/FvbServicesSmm.inf [X64]
+rm -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/SnapshotDxe.lib
+"gcc-ar" cr /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/SnapshotDxe.lib  @/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/object_files.lst
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Ata/AtaAtapiPassThru/AtaAtapiPassThru.inf [X64]
+"gcc" -o /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG/SnapshotDxe.dll -nostdlib -Wl,-n,-q,--gc-sections -z common-page-size=0x40 -Wl,--entry,_ModuleEntryPoint -u _ModuleEntryPoint -Wl,-Map,/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG/SnapshotDxe.map,--whole-archive -Wl,-melf_x86_64,--oformat=elf64-x86-64,-pie -Wl,--fatal-warnings -Wl,-z,noexecstack -Wl,-z,notext -flto -Os -z common-page-size=0x1000 -z common-page-size=0x1000 -Wl,--start-group,@/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/static_library_files.lst,--end-group -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -fstack-protector -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=SnapshotDxeStrings -mstack-protector-guard=global -m64 "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -fno-omit-frame-pointer -flto -DUSING_LTO -mno-mmx -mno-sse -D DISABLE_NEW_DEPRECATED_INTERFACES -D TDX_GUEST_SUPPORTED -D ENABLE_MD5_DEPRECATED_INTERFACES -Wl,--defsym=PECOFF_HEADER_SIZE=0x228 -Wl,--script=/home/aditya/snapshot-forensics/edk2/BaseTools/Scripts/GccBase.lds -Wno-error
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/SmmCommunicationBufferDxe/SmmCommunicationBufferDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/VirtHstiDxe/VirtHstiDxe.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/FaultTolerantWriteDxe/FaultTolerantWriteSmm.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/SmmControl2Dxe/SmmControl2Dxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/VirtioSerialDxe/VirtioSerial.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Acpi/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/DynamicCommand/TftpDynamicCommand/TftpDynamicCommand.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/QemuRamfbDxe/QemuRamfbDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/FaultTolerantWritePei/FaultTolerantWritePei.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Acpi/BootScriptExecutorDxe/BootScriptExecutorDxe.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/Conf/.cache/280251c4-1d09-4035-9062-839acb5f18c1CpuMpPei.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Scsi/ScsiDiskDxe/ScsiDiskDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Sd/EmmcDxe/EmmcDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Pci/PciHostBridgeDxe/PciHostBridgeDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/UefiCpuPkg/CpuDxe/CpuDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/SioBusDxe/SioBusDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/AmdSevDxe/AmdSevDxe.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/IoMmuDxe/IoMmuDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/CpuS3DataDxe/CpuS3DataDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Sd/SdDxe/SdDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/StatusCodeHandler/Pei/StatusCodeHandlerPei.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/Ip4Dxe/Ip4Dxe.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/Application/Shell/Shell.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/ResetSystemRuntimeDxe/ResetSystemRuntimeDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/TcpDxe/TcpDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Pci/EhciDxe/EhciDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/Udp4Dxe/Udp4Dxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/CpuHotplugSmm/CpuHotplugSmm.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/PcAtChipsetPkg/PcatRealTimeClockRuntimeDxe/PcatRealTimeClockRuntimeDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/PlatformDxe/Platform.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/ShellPkg/DynamicCommand/VariablePolicyDynamicCommand/VariablePolicyDynamicCommand.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf [X64]
+"objcopy"  /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG/SnapshotDxe.dll
+cp -p -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG/SnapshotDxe.dll /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG/SnapshotDxe.debug
+"objcopy" --strip-unneeded -R .eh_frame /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG/SnapshotDxe.dll
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/Console/TerminalDxe/TerminalDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+"objcopy" --add-gnu-debuglink="/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG/SnapshotDxe.debug" /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG/SnapshotDxe.dll
+cp -p -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG/SnapshotDxe.debug /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotDxe.debug
+"GenFw" -e DXE_DRIVER -o /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/SnapshotDxe.efi /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG/SnapshotDxe.dll
+make: Nothing to be done for 'tbuild'.
+"objcopy"  /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG/SmmSnapshotDriver.dll
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/QemuVideoDxe/QemuVideoDxe.inf [X64]
+cp -p -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/SnapshotDxe.efi /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG
+cp -p -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/SnapshotDxe.efi /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotDxe.efi
+cp -p -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG/*.map /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT
+cp -p -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG/SmmSnapshotDriver.dll /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG/SmmSnapshotDriver.debug
+cp -p -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG/*.pdb /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT
+"objcopy" --strip-unneeded -R .eh_frame /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG/SmmSnapshotDriver.dll
+cp: cannot stat '/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/DEBUG/*.pdb': No such file or directory
+make: [GNUmakefile:369: /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/SnapshotDxe.efi] Error 1 (ignored)
+test -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/SnapshotDxe.map && cp -p -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/SnapshotDxe.map /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/Ffs/0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63SnapshotDxe/0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63.map
+"objcopy" --add-gnu-debuglink="/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG/SmmSnapshotDriver.debug" /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG/SmmSnapshotDriver.dll
+test -e /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/SnapshotDxe.efi && GenSec -s EFI_SECTION_PE32 -o /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/Ffs/0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63SnapshotDxe/0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63SEC2.1.pe32 /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SnapshotDxe/SnapshotDxe/OUTPUT/SnapshotDxe.efi
+make: Nothing to be done for 'tbuild'.
+cp -p -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG/SmmSnapshotDriver.debug /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SmmSnapshotDriver.debug
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/VlanConfigDxe/VlanConfigDxe.inf [X64]
+"GenFw" -e DXE_SMM_DRIVER -o /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/SmmSnapshotDriver.efi /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG/SmmSnapshotDriver.dll
+GenFfs -t EFI_FV_FILETYPE_DRIVER -g 0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63 -o /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/Ffs/0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63SnapshotDxe/0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63.ffs -oi /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/Ffs/0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63SnapshotDxe/0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63SEC1.1.dpx -oi /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/Ffs/0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63SnapshotDxe/0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63SEC2.1.pe32 -oi /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/Ffs/0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63SnapshotDxe/0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63SEC3.ui -oi /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/Ffs/0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63SnapshotDxe/0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63SEC4.ver
+cp -p -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/SmmSnapshotDriver.efi /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG
+cp -p -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/SmmSnapshotDriver.efi /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SmmSnapshotDriver.efi
+cp -p -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG/*.map /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT
+cp -p -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG/*.pdb /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT
+cp: cannot stat '/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/DEBUG/*.pdb': No such file or directory
+make: [GNUmakefile:362: /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/SmmSnapshotDriver.efi] Error 1 (ignored)
+test -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/SmmSnapshotDriver.map && cp -p -f /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/SmmSnapshotDriver.map /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/Ffs/2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58SmmSnapshotDriver/2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58.map
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/VirtioRngDxe/VirtioRng.inf [X64]
+test -e /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/SmmSnapshotDriver.efi && GenSec -s EFI_SECTION_PE32 -o /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/Ffs/2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58SmmSnapshotDriver/2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58SEC2.1.pe32 /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/X64/SnapshotPkg/SmmSnapshotDriver/SmmSnapshotDriver/OUTPUT/SmmSnapshotDriver.efi
+make: Nothing to be done for 'tbuild'.
+GenFfs -t EFI_FV_FILETYPE_SMM -g 2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58 -o /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/Ffs/2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58SmmSnapshotDriver/2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58.ffs -oi /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/Ffs/2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58SmmSnapshotDriver/2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58SEC1.1.dpx -oi /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/Ffs/2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58SmmSnapshotDriver/2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58SEC2.1.pe32 -oi /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/Ffs/2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58SmmSnapshotDriver/2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58SEC3.ui -oi /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/Ffs/2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58SmmSnapshotDriver/2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58SEC4.ver
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Bus/Isa/Ps2KeyboardDxe/Ps2KeyboardDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Core/Dxe/DxeMain.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/VirtioGpuDxe/VirtioGpu.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/NetworkPkg/IScsiDxe/IScsiDxe.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Tcg/TdTcg2Dxe/TdTcg2Dxe.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Sec/SecMain.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/PlatformPei/PlatformPei.inf [X64]
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/OvmfPkg/Tcg/TdTcg2Pei/TdTcg2Pei.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+Building ... /home/aditya/snapshot-forensics/edk2/MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf [X64]
+Building ... /home/aditya/snapshot-forensics/edk2/SecurityPkg/Hash2DxeCrypto/Hash2DxeCrypto.inf [X64]
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+
+Fd File Name:OVMF (/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/OVMF.fd)
+
+Generate Region at Offset 0x0
+   Region Size = 0x40000
+   Region Name = DATA
+
+Generate Region at Offset 0x40000
+   Region Size = 0x1000
+   Region Name = None
+
+Generate Region at Offset 0x41000
+   Region Size = 0x1000
+   Region Name = DATA
+
+Generate Region at Offset 0x42000
+   Region Size = 0x42000
+   Region Name = None
+
+Generate Region at Offset 0x84000
+   Region Size = 0x348000
+   Region Name = FV
+
+Generating FVMAIN_COMPACT FV
+
+Generating PEIFV FV
+####
+Generating DXEFV FV
+#########
+Generate Region at Offset 0x3CC000
+   Region Size = 0x34000
+   Region Name = FV
+
+Generating SECFV FV
+#
+Fd File Name:OVMF_VARS (/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/OVMF_VARS.fd)
+
+Generate Region at Offset 0x0
+   Region Size = 0x40000
+   Region Name = DATA
+
+Generate Region at Offset 0x40000
+   Region Size = 0x1000
+   Region Name = None
+
+Generate Region at Offset 0x41000
+   Region Size = 0x1000
+   Region Name = DATA
+
+Generate Region at Offset 0x42000
+   Region Size = 0x42000
+   Region Name = None
+
+Fd File Name:OVMF_CODE (/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/OVMF_CODE.fd)
+
+Generate Region at Offset 0x0
+   Region Size = 0x348000
+   Region Name = FV
+
+Generate Region at Offset 0x348000
+   Region Size = 0x34000
+   Region Name = FV
+
+Fd File Name:MEMFD (/home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/MEMFD.fd)
+
+Generate Region at Offset 0x0
+   Region Size = 0x6000
+   Region Name = None
+
+Generate Region at Offset 0x6000
+   Region Size = 0x1000
+   Region Name = None
+
+Generate Region at Offset 0x7000
+   Region Size = 0x1000
+   Region Name = None
+
+Generate Region at Offset 0x8000
+   Region Size = 0x1000
+   Region Name = None
+
+Generate Region at Offset 0x9000
+   Region Size = 0x2000
+   Region Name = None
+
+Generate Region at Offset 0xB000
+   Region Size = 0x1000
+   Region Name = None
+
+Generate Region at Offset 0xC000
+   Region Size = 0x1000
+   Region Name = None
+
+Generate Region at Offset 0xD000
+   Region Size = 0x1000
+   Region Name = None
+
+Generate Region at Offset 0xE000
+   Region Size = 0x1000
+   Region Name = None
+
+Generate Region at Offset 0xF000
+   Region Size = 0x1000
+   Region Name = None
+
+Generate Region at Offset 0x10000
+   Region Size = 0xC00
+   Region Name = None
+
+Generate Region at Offset 0x10C00
+   Region Size = 0x400
+   Region Name = None
+
+Generate Region at Offset 0x11000
+   Region Size = 0x1000
+   Region Name = None
+
+Generate Region at Offset 0x12000
+   Region Size = 0x1000
+   Region Name = None
+
+Generate Region at Offset 0x13000
+   Region Size = 0x1000
+   Region Name = None
+
+Generate Region at Offset 0x14000
+   Region Size = 0xC000
+   Region Name = None
+
+Generate Region at Offset 0x20000
+   Region Size = 0x10000
+   Region Name = None
+
+Generate Region at Offset 0x30000
+   Region Size = 0xD0000
+   Region Name = FV
+
+Generate Region at Offset 0x100000
+   Region Size = 0xE80000
+   Region Name = FV
+
+GUID cross reference file can be found at /home/aditya/snapshot-forensics/edk2/Build/OvmfX64/DEBUG_GCC/FV/Guid.xref
+
+FV Space Information
+SECFV [31%Full] 212992 (0x34000) total, 67344 (0x10710) used, 145648 (0x238f0) free
+PEIFV [46%Full] 851968 (0xd0000) total, 394728 (0x605e8) used, 457240 (0x6fa18) free
+DXEFV [43%Full] 15204352 (0xe80000) total, 6663088 (0x65abb0) used, 8541264 (0x825450) free
+FVMAIN_COMPACT [43%Full] 3440640 (0x348000) total, 1505328 (0x16f830) used, 1935312 (0x1d87d0) free
+
+- Done -
+Build end time: 12:52:21, Nov.22 2026
+Build total time: 00:00:10
+

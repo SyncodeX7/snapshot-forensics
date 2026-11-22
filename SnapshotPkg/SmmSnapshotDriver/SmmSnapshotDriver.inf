@@ -1,0 +1,52 @@
+## @file
+#  SMM snapshot engine: periodic timer consumer, full/hash/dirty/sliced capture.
+#
+#  Copyright (c) 2026
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+##
+
+[Defines]
+  INF_VERSION                    = 1.29
+  BASE_NAME                      = SmmSnapshotDriver
+  FILE_GUID                      = 2C9F6A41-8D7B-4E35-B1A0-6F3C9D2E7A58
+  MODULE_TYPE                    = DXE_SMM_DRIVER
+  PI_SPECIFICATION_VERSION       = 0x00010400
+  VERSION_STRING                 = 0.1
+  ENTRY_POINT                    = SmmSnapshotEntryPoint
+
+[Sources]
+  SmmSnapshotDriver.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SnapshotPkg/SnapshotPkg.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  BaseLib
+  BaseMemoryLib
+  DebugLib
+  MemoryAllocationLib
+  SmmServicesTableLib
+  PcdLib
+
+[Protocols]
+  gEfiSmmPeriodicTimerDispatch2ProtocolGuid   ## CONSUMES
+  gEfiSmmCpuProtocolGuid                      ## CONSUMES
+
+[Guids]
+  gSnapshotConfigGuid                         ## CONSUMES
+
+[Pcd]
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotMode
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotPeriodSeconds
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotMaxPagesPerSmi
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotDeltaSlots
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotFullEvery
+
+[FeaturePcd]
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotEnable
+
+[Depex]
+  gEfiSmmPeriodicTimerDispatch2ProtocolGuid AND
+  gEfiSmmCpuProtocolGuid

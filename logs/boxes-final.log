@@ -1,0 +1,23 @@
+Domain 'snapshot-forensics' started
+
+serial: /home/aditya/snapshot-forensics/out/boxes/serial.log
+guest booted; running 20s
+dumping 1073741824 bytes to /home/aditya/snapshot-forensics/out/boxes/ram.raw
+-rw-rw-r-- 1 aditya aditya 1.0G Nov 22 12:55 /home/aditya/snapshot-forensics/out/boxes/ram.raw
+== run: /home/aditya/snapshot-forensics/out/boxes
+== results: /home/aditya/snapshot-forensics/out/analyzed/boxes
+
+== extracting snapshot ==
+snapshot seq=2 mode=A-full state=ready
+  slots applied : 1
+  pages         : 109016 (109016 unique, 425.8 MiB)
+  coverage      : 100.0% of 109016 pages
+  hash mismatch : 0
+  image         : /home/aditya/snapshot-forensics/out/boxes/extract/ram-2.raw
+  metadata      : /home/aditya/snapshot-forensics/out/boxes/extract/snapshot-2.json
+== image: /home/aditya/snapshot-forensics/out/boxes/extract/ram-2.raw
+
+== volatility: linux.pslist ==
+
+== done: /home/aditya/snapshot-forensics/out/analyzed/boxes
+   hash mismatches: 0

@@ -1,0 +1,500 @@
+===== mode A =====
+building OVMF for mode A
+booting guest for mode A (100s after boot)
+output   : /home/aditya/snapshot-forensics/out/bench/run-A
+accel    : kvm
+memory   : 1G (1073741824 bytes)
+OVMF code: /home/aditya/snapshot-forensics/out/bench/OVMF_CODE-A.fd
+guest booted; running 100s
+dumping 1073741824 bytes to /home/aditya/snapshot-forensics/out/bench/run-A/ram.raw
+p[K[Dpm[K[D[Dpme[K[D[D[Dpmem[K[D[D[D[Dpmems[K[D[D[D[D[Dpmemsa[K[D[D[D[D[D[Dpmemsav[K[D[D[D[D[D[D[Dpmemsave[K[D[D[D[D[D[D[D[Dpmemsave [K[D[D[D[D[D[D[D[D[Dpmemsave 0[K[D[D[D[D[D[D[D[D[D[Dpmemsave 0 [K[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1[K[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 10[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 107[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 10737[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 107374[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 10737418[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 107374182[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/h[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/ho[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/hom[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/a[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/ad[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/adi[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/adit[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/adity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/s[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/sn[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/sna[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snap[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snaps[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapsh[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapsho[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-f[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-fo[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-for[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-fore[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-foren[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forens[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensi[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensic[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/o[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/ou[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/b[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/be[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/ben[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/benc[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/r[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/ru[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-A[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-A/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-A/r[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-A/ra[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-A/ram[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-A/ram.[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-A/ram.r[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-A/ram.ra[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-A/ram.raw[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-A/ram.raw"[K
+(qemu) q[K[Dqu[K[D[Dqui[K[D[D[Dquit[K
+serial   : /home/aditya/snapshot-forensics/out/bench/run-A/serial.log
+-rw-r--r-- 1 aditya aditya 1.0G Nov 22 12:38 /home/aditya/snapshot-forensics/out/bench/run-A/ram.raw
+extracting snapshot for mode A
+snapshot seq=12 mode=A-full state=ready
+  slots applied : 1
+  pages         : 109016 (109016 unique, 425.8 MiB)
+  coverage      : 100.0% of 109016 pages
+  hash mismatch : 0
+  image         : /home/aditya/snapshot-forensics/out/bench/extract-A/ram-12-A.raw
+  metadata      : /home/aditya/snapshot-forensics/out/bench/extract-A/snapshot-12-A.json
+validating forensics for mode A
+== volatility3 linux.pslist ==
+Progress:    0.00		Scanning FileLayer using BytesScannerProgress:    1.67		Scanning FileLayer using BytesScannerProgress:    3.34		Scanning FileLayer using BytesScannerProgress:    5.00		Scanning FileLayer using BytesScannerProgress:    6.67		Scanning FileLayer using BytesScannerProgress:    0.00		Scanning FileLayer using BytesScannerProgress:    1.67		Scanning FileLayer using BytesScannerProgress:    3.34		Scanning FileLayer using BytesScannerProgress:    5.00		Scanning FileLayer using BytesScannerProgress:  100.00		Stacking attempts finished           Volatility 3 Framework 2.28.2
+
+OFFSET (V)	PID	TID	PPID	COMM	UID	GID	EUID	EGID	CREATION TIME	File output
+
+0x888001b39000	1	1	0	init	0	0	0	0	2026-11-22 07:07:03.072603 UTC	Disabled
+0x888001b3a000	2	2	0	kthreadd	0	0	0	0	2026-11-22 07:07:03.072603 UTC	Disabled
+0x888001b3b000	3	3	2	pool_workqueue_	0	0	0	0	2026-11-22 07:07:03.073603 UTC	Disabled
+0x888001b3c000	4	4	2	kworker/R-kvfre	0	0	0	0	2026-11-22 07:07:03.073603 UTC	Disabled
+0x888001b3d000	5	5	2	kworker/R-rcu_g	0	0	0	0	2026-11-22 07:07:03.073603 UTC	Disabled
+0x888001b3e000	6	6	2	kworker/R-sync_	0	0	0	0	2026-11-22 07:07:03.073603 UTC	Disabled
+0x888001b3f000	7	7	2	kworker/R-slub_	0	0	0	0	2026-11-22 07:07:03.073603 UTC	Disabled
+0x888037f00000	8	8	2	kworker/R-netns	0	0	0	0	2026-11-22 07:07:03.073603 UTC	Disabled
+0x888037f01000	9	9	2	kworker/0:0	0	0	0	0	2026-11-22 07:07:03.073603 UTC	Disabled
+0x888037f02000	10	10	2	kworker/0:1	0	0	0	0	2026-11-22 07:07:03.073603 UTC	Disabled
+0x888037f03000	11	11	2	kworker/0:0H	0	0	0	0	2026-11-22 07:07:03.073603 UTC	Disabled
+0x888037f04000	12	12	2	kworker/u8:0	0	0	0	0	2026-11-22 07:07:03.073603 UTC	Disabled
+0x888037f05000	13	13	2	kworker/R-mm_pe	0	0	0	0	2026-11-22 07:07:03.073603 UTC	Disabled
+0x888037f06000	14	14	2	rcu_tasks_kthre	0	0	0	0	2026-11-22 07:07:03.073603 UTC	Disabled
+0x888037f07000	15	15	2	ksoftirqd/0	0	0	0	0	2026-11-22 07:07:03.079603 UTC	Disabled
+0x888037f08000	16	16	2	rcu_preempt	0	0	0	0	2026-11-22 07:07:03.081603 UTC	Disabled
+0x888037f09000	17	17	2	rcu_exp_par_gp_	0	0	0	0	2026-11-22 07:07:03.081603 UTC	Disabled
+0x888037f0a000	18	18	2	rcu_exp_gp_kthr	0	0	0	0	2026-11-22 07:07:03.081603 UTC	Disabled
+0x888037f0b000	19	19	2	migration/0	0	0	0	0	2026-11-22 07:07:03.082603 UTC	Disabled
+0x888037f0d000	20	20	2	cpuhp/0	0	0	0	0	2026-11-22 07:07:03.086603 UTC	Disabled
+0x888037f0e000	21	21	2	cpuhp/1	0	0	0	0	2026-11-22 07:07:03.087603 UTC	Disabled
+0x888037f0f000	22	22	2	migration/1	0	0	0	0	2026-11-22 07:07:03.087603 UTC	Disabled
+0x888037f18000	23	23	2	ksoftirqd/1	0	0	0	0	2026-11-22 07:07:03.087603 UTC	Disabled
+0x888037f19000	24	24	2	kworker/1:0	0	0	0	0	2026-11-22 07:07:03.087603 UTC	Disabled
+0x888037f1a000	25	25	2	kworker/1:0H	0	0	0	0	2026-11-22 07:07:03.087603 UTC	Disabled
+0x888037f1b000	26	26	2	kdevtmpfs	0	0	0	0	2026-11-22 07:07:03.092603 UTC	Disabled
+0x888037f1c000	27	27	2	kworker/R-inet_	0	0	0	0	2026-11-22 07:07:03.093603 UTC	Disabled
+0x888037f1d000	28	28	2	kauditd	0	0	0	0	2026-11-22 07:07:03.104603 UTC	Disabled
+0x888037f1e000	29	29	2	kworker/u8:1	0	0	0	0	2026-11-22 07:07:03.112603 UTC	Disabled
+0x888037f1f000	30	30	2	oom_reaper	0	0	0	0	2026-11-22 07:07:03.112603 UTC	Disabled
+0x888004dc8000	31	31	2	kworker/R-write	0	0	0	0	2026-11-22 07:07:03.114603 UTC	Disabled
+0x888004dc9000	32	32	2	kcompactd0	0	0	0	0	2026-11-22 07:07:03.114603 UTC	Disabled
+0x888037f6b000	33	33	2	kworker/R-kbloc	0	0	0	0	2026-11-22 07:07:03.116603 UTC	Disabled
+0x888037f6f000	34	34	2	irq/9-acpi	0	0	0	0	2026-11-22 07:07:03.123603 UTC	Disabled
+0x888004e70000	35	35	2	kworker/1:1	0	0	0	0	2026-11-22 07:07:03.123603 UTC	Disabled
+0x888004dca000	36	36	2	kworker/R-ata_s	0	0	0	0	2026-11-22 07:07:03.261603 UTC	Disabled
+0x888004e77000	37	37	2	kworker/R-md	0	0	0	0	2026-11-22 07:07:03.268603 UTC	Disabled
+0x888004dcb000	38	38	2	kworker/R-md_bi	0	0	0	0	2026-11-22 07:07:03.268603 UTC	Disabled
+0x888004e90000	39	39	2	kworker/R-quota	0	0	0	0	2026-11-22 07:07:03.370526 UTC	Disabled
+0x888004eb6000	40	40	2	kworker/1:1H	0	0	0	0	2026-11-22 07:07:03.390240 UTC	Disabled
+0x888004e92000	41	41	2	kworker/R-rpcio	0	0	0	0	2026-11-22 07:07:03.404481 UTC	Disabled
+0x888004e93000	42	42	2	kworker/R-xprti	0	0	0	0	2026-11-22 07:07:03.404542 UTC	Disabled
+0x888004f5a000	43	43	2	kworker/R-cfg80	0	0	0	0	2026-11-22 07:07:03.411608 UTC	Disabled
+0x888004f5b000	44	44	2	kswapd0	0	0	0	0	2026-11-22 07:07:03.426460 UTC	Disabled
+0x888004e94000	45	45	2	kworker/R-nfsio	0	0	0	0	2026-11-22 07:07:03.428194 UTC	Disabled
+0x888004f5c000	46	46	2	kworker/R-acpi_	0	0	0	0	2026-11-22 07:07:03.451622 UTC	Disabled
+0x888004fe1000	47	47	2	scsi_eh_0	0	0	0	0	2026-11-22 07:07:03.486032 UTC	Disabled
+0x888005161000	48	48	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:07:03.486092 UTC	Disabled
+0x888004fe2000	49	49	2	scsi_eh_1	0	0	0	0	2026-11-22 07:07:03.486871 UTC	Disabled
+0x888005162000	50	50	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:07:03.486923 UTC	Disabled
+0x888004fe3000	51	51	2	scsi_eh_2	0	0	0	0	2026-11-22 07:07:03.487698 UTC	Disabled
+0x888005163000	52	52	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:07:03.487738 UTC	Disabled
+0x888004fe4000	53	53	2	scsi_eh_3	0	0	0	0	2026-11-22 07:07:03.488533 UTC	Disabled
+0x888004fe5000	54	54	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:07:03.488597 UTC	Disabled
+0x888005164000	55	55	2	scsi_eh_4	0	0	0	0	2026-11-22 07:07:03.489422 UTC	Disabled
+0x888005165000	56	56	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:07:03.489467 UTC	Disabled
+0x888004fe6000	57	57	2	scsi_eh_5	0	0	0	0	2026-11-22 07:07:03.490264 UTC	Disabled
+0x888004fe7000	58	58	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:07:03.490313 UTC	Disabled
+0x888005166000	59	59	2	kworker/u8:2	0	0	0	0	2026-11-22 07:07:03.503719 UTC	Disabled
+0x888005167000	60	60	2	kworker/u8:3	0	0	0	0	2026-11-22 07:07:03.503766 UTC	Disabled
+0x8880052c8000	61	61	2	kworker/u8:4	0	0	0	0	2026-11-22 07:07:03.504278 UTC	Disabled
+0x8880052c9000	62	62	2	kworker/u8:5	0	0	0	0	2026-11-22 07:07:03.504296 UTC	Disabled
+0x8880052ca000	63	63	2	kworker/u8:6	0	0	0	0	2026-11-22 07:07:03.504474 UTC	Disabled
+0x8880052b2000	64	64	2	kworker/1:2	0	0	0	0	2026-11-22 07:07:03.523143 UTC	Disabled
+0x8880052b3000	65	65	2	kworker/u8:7	0	0	0	0	2026-11-22 07:07:03.528961 UTC	Disabled
+0x8880052b4000	66	66	2	kworker/0:1H	0	0	0	0	2026-11-22 07:07:03.547285 UTC	Disabled
+0x888005318000	67	67	2	kworker/R-mld	0	0	0	0	2026-11-22 07:07:03.549854 UTC	Disabled
+0x88800531b000	68	68	2	kworker/R-ipv6_	0	0	0	0	2026-11-22 07:07:03.550018 UTC	Disabled
+0x8880052b5000	70	70	1	snapw0	0	0	0	0	2026-11-22 07:07:03.897316 UTC	Disabled
+0x8880052b6000	71	71	1	snapw1	0	0	0	0	2026-11-22 07:07:03.898183 UTC	Disabled
+0x8880052b7000	72	72	1	snapw2	0	0	0	0	2026-11-22 07:07:03.898795 UTC	Disabled
+0x8880052e8000	73	73	1	snapw3	0	0	0	0	2026-11-22 07:07:03.899425 UTC	Disabled
+
+== cross-check against guest serial log ==
+SNAPSHOT-GUEST: booted, init pid=1 write_heavy=0 crash_after=0
+SNAPSHOT-GUEST: worker 0 pid=70
+SNAPSHOT-GUEST: worker 1 pid=71
+SNAPSHOT-GUEST: worker 2 pid=72
+SNAPSHOT-GUEST: worker 3 pid=73
+SNAPSHOT-GUEST: alive elapsed=2
+SNAPSHOT-GUEST: alive elapsed=4
+SNAPSHOT-GUEST: alive elapsed=6
+SNAPSHOT-GUEST: alive elapsed=8
+SNAPSHOT-GUEST: alive elapsed=10
+SNAPSHOT-GUEST: alive elapsed=12
+SNAPSHOT-GUEST: alive elapsed=14
+SNAPSHOT-GUEST: alive elapsed=16
+SNAPSHOT-GUEST: alive elapsed=18
+SNAPSHOT-GUEST: alive elapsed=20
+SNAPSHOT-GUEST: alive elapsed=22
+SNAPSHOT-GUEST: alive elapsed=24
+SNAPSHOT-GUEST: alive elapsed=26
+SNAPSHOT-GUEST: alive elapsed=28
+SNAPSHOT-GUEST: alive elapsed=30
+SNAPSHOT-GUEST: alive elapsed=32
+SNAPSHOT-GUEST: alive elapsed=34
+SNAPSHOT-GUEST: alive elapsed=36
+SNAPSHOT-GUEST: alive elapsed=38
+SNAPSHOT-GUEST: alive elapsed=40
+SNAPSHOT-GUEST: alive elapsed=42
+SNAPSHOT-GUEST: alive elapsed=44
+SNAPSHOT-GUEST: alive elapsed=46
+SNAPSHOT-GUEST: alive elapsed=48
+SNAPSHOT-GUEST: alive elapsed=50
+SNAPSHOT-GUEST: alive elapsed=52
+SNAPSHOT-GUEST: alive elapsed=54
+SNAPSHOT-GUEST: alive elapsed=56
+SNAPSHOT-GUEST: alive elapsed=58
+SNAPSHOT-GUEST: alive elapsed=60
+SNAPSHOT-GUEST: alive elapsed=62
+SNAPSHOT-GUEST: alive elapsed=64
+SNAPSHOT-GUEST: alive elapsed=66
+SNAPSHOT-GUEST: alive elapsed=68
+SNAPSHOT-GUEST: alive elapsed=70
+SNAPSHOT-GUEST: alive elapsed=72
+SNAPSHOT-GUEST: alive elapsed=74
+SNAPSHOT-GUEST: alive elapsed=76
+SNAPSHOT-GUEST: alive elapsed=78
+SNAPSHOT-GUEST: alive elapsed=80
+SNAPSHOT-GUEST: alive elapsed=82
+SNAPSHOT-GUEST: alive elapsed=84
+SNAPSHOT-GUEST: alive elapsed=86
+SNAPSHOT-GUEST: alive elapsed=88
+SNAPSHOT-GUEST: alive elapsed=90
+SNAPSHOT-GUEST: alive elapsed=92
+SNAPSHOT-GUEST: alive elapsed=94
+SNAPSHOT-GUEST: alive elapsed=96
+SNAPSHOT-GUEST: alive elapsed=98
+SNAPSHOT-GUEST: alive elapsed=100
+  found init in pslist
+  found snapw0 in pslist
+  found snapw1 in pslist
+  found snapw2 in pslist
+  found snapw3 in pslist
+===== mode B =====
+building OVMF for mode B
+booting guest for mode B (100s after boot)
+output   : /home/aditya/snapshot-forensics/out/bench/run-B
+accel    : kvm
+memory   : 1G (1073741824 bytes)
+OVMF code: /home/aditya/snapshot-forensics/out/bench/OVMF_CODE-B.fd
+guest booted; running 100s
+dumping 1073741824 bytes to /home/aditya/snapshot-forensics/out/bench/run-B/ram.raw
+p[K[Dpm[K[D[Dpme[K[D[D[Dpmem[K[D[D[D[Dpmems[K[D[D[D[D[Dpmemsa[K[D[D[D[D[D[Dpmemsav[K[D[D[D[D[D[D[Dpmemsave[K[D[D[D[D[D[D[D[Dpmemsave [K[D[D[D[D[D[D[D[D[Dpmemsave 0[K[D[D[D[D[D[D[D[D[D[Dpmemsave 0 [K[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1[K[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 10[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 107[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 10737[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 107374[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 10737418[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 107374182[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/h[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/ho[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/hom[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/a[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/ad[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/adi[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/adit[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/adity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/s[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/sn[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/sna[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snap[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snaps[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapsh[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapsho[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-f[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-fo[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-for[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-fore[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-foren[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forens[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensi[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensic[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/o[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/ou[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/b[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/be[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/ben[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/benc[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/r[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/ru[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-B[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-B/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-B/r[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-B/ra[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-B/ram[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-B/ram.[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-B/ram.r[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-B/ram.ra[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-B/ram.raw[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-B/ram.raw"[K
+(qemu) q[K[Dqu[K[D[Dqui[K[D[D[Dquit[K
+serial   : /home/aditya/snapshot-forensics/out/bench/run-B/serial.log
+-rw-r--r-- 1 aditya aditya 1.0G Nov 22 12:40 /home/aditya/snapshot-forensics/out/bench/run-B/ram.raw
+extracting snapshot for mode B
+snapshot seq=12 mode=B-hash state=ready
+  slots applied : 5
+  pages         : 114392 (109016 unique, 425.8 MiB)
+  coverage      : 100.0% of 109016 pages
+  hash mismatch : 0
+  image         : /home/aditya/snapshot-forensics/out/bench/extract-B/ram-12-B.raw
+  metadata      : /home/aditya/snapshot-forensics/out/bench/extract-B/snapshot-12-B.json
+validating forensics for mode B
+== volatility3 linux.pslist ==
+Progress:    0.00		Scanning FileLayer using BytesScannerProgress:    1.67		Scanning FileLayer using BytesScannerProgress:    3.34		Scanning FileLayer using BytesScannerProgress:    5.00		Scanning FileLayer using BytesScannerProgress:    6.67		Scanning FileLayer using BytesScannerProgress:    0.00		Scanning FileLayer using BytesScannerProgress:    1.67		Scanning FileLayer using BytesScannerProgress:    3.34		Scanning FileLayer using BytesScannerProgress:    5.00		Scanning FileLayer using BytesScannerProgress:  100.00		Stacking attempts finished           Volatility 3 Framework 2.28.2
+
+OFFSET (V)	PID	TID	PPID	COMM	UID	GID	EUID	EGID	CREATION TIME	File output
+
+0x888001b39000	1	1	0	init	0	0	0	0	2026-11-22 07:09:16.071451 UTC	Disabled
+0x888001b3a000	2	2	0	kthreadd	0	0	0	0	2026-11-22 07:09:16.071451 UTC	Disabled
+0x888001b3b000	3	3	2	pool_workqueue_	0	0	0	0	2026-11-22 07:09:16.072451 UTC	Disabled
+0x888001b3c000	4	4	2	kworker/R-kvfre	0	0	0	0	2026-11-22 07:09:16.072451 UTC	Disabled
+0x888001b3d000	5	5	2	kworker/R-rcu_g	0	0	0	0	2026-11-22 07:09:16.072451 UTC	Disabled
+0x888001b3e000	6	6	2	kworker/R-sync_	0	0	0	0	2026-11-22 07:09:16.072451 UTC	Disabled
+0x888001b3f000	7	7	2	kworker/R-slub_	0	0	0	0	2026-11-22 07:09:16.072451 UTC	Disabled
+0x888037f00000	8	8	2	kworker/R-netns	0	0	0	0	2026-11-22 07:09:16.072451 UTC	Disabled
+0x888037f01000	9	9	2	kworker/0:0	0	0	0	0	2026-11-22 07:09:16.072451 UTC	Disabled
+0x888037f02000	10	10	2	kworker/0:1	0	0	0	0	2026-11-22 07:09:16.072451 UTC	Disabled
+0x888037f03000	11	11	2	kworker/0:0H	0	0	0	0	2026-11-22 07:09:16.072451 UTC	Disabled
+0x888037f04000	12	12	2	kworker/u8:0	0	0	0	0	2026-11-22 07:09:16.072451 UTC	Disabled
+0x888037f05000	13	13	2	kworker/R-mm_pe	0	0	0	0	2026-11-22 07:09:16.072451 UTC	Disabled
+0x888037f06000	14	14	2	rcu_tasks_kthre	0	0	0	0	2026-11-22 07:09:16.072451 UTC	Disabled
+0x888037f07000	15	15	2	ksoftirqd/0	0	0	0	0	2026-11-22 07:09:16.078451 UTC	Disabled
+0x888037f08000	16	16	2	rcu_preempt	0	0	0	0	2026-11-22 07:09:16.080451 UTC	Disabled
+0x888037f09000	17	17	2	rcu_exp_par_gp_	0	0	0	0	2026-11-22 07:09:16.080451 UTC	Disabled
+0x888037f0a000	18	18	2	rcu_exp_gp_kthr	0	0	0	0	2026-11-22 07:09:16.080451 UTC	Disabled
+0x888037f0b000	19	19	2	migration/0	0	0	0	0	2026-11-22 07:09:16.081451 UTC	Disabled
+0x888037f0d000	20	20	2	cpuhp/0	0	0	0	0	2026-11-22 07:09:16.084451 UTC	Disabled
+0x888037f0e000	21	21	2	cpuhp/1	0	0	0	0	2026-11-22 07:09:16.085451 UTC	Disabled
+0x888037f0f000	22	22	2	migration/1	0	0	0	0	2026-11-22 07:09:16.085451 UTC	Disabled
+0x888037f18000	23	23	2	ksoftirqd/1	0	0	0	0	2026-11-22 07:09:16.085451 UTC	Disabled
+0x888037f19000	24	24	2	kworker/1:0	0	0	0	0	2026-11-22 07:09:16.085451 UTC	Disabled
+0x888037f1a000	25	25	2	kworker/1:0H	0	0	0	0	2026-11-22 07:09:16.085451 UTC	Disabled
+0x888037f1b000	26	26	2	kdevtmpfs	0	0	0	0	2026-11-22 07:09:16.089451 UTC	Disabled
+0x888037f1c000	27	27	2	kworker/R-inet_	0	0	0	0	2026-11-22 07:09:16.090451 UTC	Disabled
+0x888037f1d000	28	28	2	kauditd	0	0	0	0	2026-11-22 07:09:16.101451 UTC	Disabled
+0x888037f1e000	29	29	2	kworker/u8:1	0	0	0	0	2026-11-22 07:09:16.109451 UTC	Disabled
+0x888037f1f000	30	30	2	oom_reaper	0	0	0	0	2026-11-22 07:09:16.109451 UTC	Disabled
+0x888037f68000	31	31	2	kworker/R-write	0	0	0	0	2026-11-22 07:09:16.110451 UTC	Disabled
+0x888037f69000	32	32	2	kcompactd0	0	0	0	0	2026-11-22 07:09:16.110451 UTC	Disabled
+0x888037f6d000	33	33	2	kworker/R-kbloc	0	0	0	0	2026-11-22 07:09:16.113451 UTC	Disabled
+0x888004df1000	34	34	2	irq/9-acpi	0	0	0	0	2026-11-22 07:09:16.120451 UTC	Disabled
+0x888004df2000	35	35	2	kworker/1:1	0	0	0	0	2026-11-22 07:09:16.120451 UTC	Disabled
+0x888004dc8000	36	36	2	kworker/R-ata_s	0	0	0	0	2026-11-22 07:09:16.259451 UTC	Disabled
+0x888004e89000	37	37	2	kworker/R-md	0	0	0	0	2026-11-22 07:09:16.266451 UTC	Disabled
+0x888004e8a000	38	38	2	kworker/R-md_bi	0	0	0	0	2026-11-22 07:09:16.266451 UTC	Disabled
+0x888004dc9000	39	39	2	kworker/R-quota	0	0	0	0	2026-11-22 07:09:16.381482 UTC	Disabled
+0x888004eb5000	40	40	2	kworker/0:1H	0	0	0	0	2026-11-22 07:09:16.399645 UTC	Disabled
+0x888004dcb000	41	41	2	kworker/R-rpcio	0	0	0	0	2026-11-22 07:09:16.413379 UTC	Disabled
+0x888004dcc000	42	42	2	kworker/R-xprti	0	0	0	0	2026-11-22 07:09:16.413473 UTC	Disabled
+0x888004f39000	43	43	2	kworker/R-cfg80	0	0	0	0	2026-11-22 07:09:16.420471 UTC	Disabled
+0x888004dcd000	44	44	2	kswapd0	0	0	0	0	2026-11-22 07:09:16.435478 UTC	Disabled
+0x888004f3a000	45	45	2	kworker/R-nfsio	0	0	0	0	2026-11-22 07:09:16.437170 UTC	Disabled
+0x888004dce000	46	46	2	kworker/R-acpi_	0	0	0	0	2026-11-22 07:09:16.459925 UTC	Disabled
+0x888004fd8000	47	47	2	scsi_eh_0	0	0	0	0	2026-11-22 07:09:16.492510 UTC	Disabled
+0x88800507b000	48	48	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:09:16.492575 UTC	Disabled
+0x888004fd9000	49	49	2	scsi_eh_1	0	0	0	0	2026-11-22 07:09:16.493577 UTC	Disabled
+0x88800507c000	50	50	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:09:16.493681 UTC	Disabled
+0x888004fda000	51	51	2	scsi_eh_2	0	0	0	0	2026-11-22 07:09:16.494666 UTC	Disabled
+0x88800507d000	52	52	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:09:16.494744 UTC	Disabled
+0x888004fdb000	53	53	2	scsi_eh_3	0	0	0	0	2026-11-22 07:09:16.495722 UTC	Disabled
+0x888004fdc000	54	54	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:09:16.495788 UTC	Disabled
+0x88800507e000	55	55	2	scsi_eh_4	0	0	0	0	2026-11-22 07:09:16.496616 UTC	Disabled
+0x888004fdd000	56	56	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:09:16.496681 UTC	Disabled
+0x88800507f000	57	57	2	scsi_eh_5	0	0	0	0	2026-11-22 07:09:16.497503 UTC	Disabled
+0x888005208000	58	58	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:09:16.497547 UTC	Disabled
+0x888004fde000	59	59	2	kworker/u8:2	0	0	0	0	2026-11-22 07:09:16.510367 UTC	Disabled
+0x888004fdf000	60	60	2	kworker/u8:3	0	0	0	0	2026-11-22 07:09:16.510388 UTC	Disabled
+0x888004f3f000	61	61	2	kworker/u8:4	0	0	0	0	2026-11-22 07:09:16.510403 UTC	Disabled
+0x888005238000	62	62	2	kworker/u8:5	0	0	0	0	2026-11-22 07:09:16.510418 UTC	Disabled
+0x888005239000	63	63	2	kworker/u8:6	0	0	0	0	2026-11-22 07:09:16.510549 UTC	Disabled
+0x88800523a000	64	64	2	kworker/0:2	0	0	0	0	2026-11-22 07:09:16.527124 UTC	Disabled
+0x88800523b000	65	65	2	kworker/u8:7	0	0	0	0	2026-11-22 07:09:16.534154 UTC	Disabled
+0x88800523c000	66	66	2	kworker/R-mld	0	0	0	0	2026-11-22 07:09:16.558145 UTC	Disabled
+0x8880052e0000	67	67	2	kworker/1:1H	0	0	0	0	2026-11-22 07:09:16.558243 UTC	Disabled
+0x8880052e1000	68	68	2	kworker/R-ipv6_	0	0	0	0	2026-11-22 07:09:16.558287 UTC	Disabled
+0x8880052ea000	70	70	1	snapw0	0	0	0	0	2026-11-22 07:09:16.922238 UTC	Disabled
+0x8880052eb000	71	71	1	snapw1	0	0	0	0	2026-11-22 07:09:16.922946 UTC	Disabled
+0x8880052ec000	72	72	1	snapw2	0	0	0	0	2026-11-22 07:09:16.925135 UTC	Disabled
+0x8880052ed000	73	73	1	snapw3	0	0	0	0	2026-11-22 07:09:16.925867 UTC	Disabled
+
+== cross-check against guest serial log ==
+SNAPSHOT-GUEST: booted, init pid=1 write_heavy=0 crash_after=0
+SNAPSHOT-GUEST: worker 0 pid=70
+SNAPSHOT-GUEST: worker 1 pid=71
+SNAPSHOT-GUEST: worker 2 pid=72
+SNAPSHOT-GUEST: worker 3 pid=73
+SNAPSHOT-GUEST: alive elapsed=2
+SNAPSHOT-GUEST: alive elapsed=4
+SNAPSHOT-GUEST: alive elapsed=6
+SNAPSHOT-GUEST: alive elapsed=8
+SNAPSHOT-GUEST: alive elapsed=10
+SNAPSHOT-GUEST: alive elapsed=12
+SNAPSHOT-GUEST: alive elapsed=14
+SNAPSHOT-GUEST: alive elapsed=16
+SNAPSHOT-GUEST: alive elapsed=18
+SNAPSHOT-GUEST: alive elapsed=20
+SNAPSHOT-GUEST: alive elapsed=22
+SNAPSHOT-GUEST: alive elapsed=24
+SNAPSHOT-GUEST: alive elapsed=26
+SNAPSHOT-GUEST: alive elapsed=28
+SNAPSHOT-GUEST: alive elapsed=30
+SNAPSHOT-GUEST: alive elapsed=32
+SNAPSHOT-GUEST: alive elapsed=34
+SNAPSHOT-GUEST: alive elapsed=36
+SNAPSHOT-GUEST: alive elapsed=38
+SNAPSHOT-GUEST: alive elapsed=40
+SNAPSHOT-GUEST: alive elapsed=42
+SNAPSHOT-GUEST: alive elapsed=44
+SNAPSHOT-GUEST: alive elapsed=46
+SNAPSHOT-GUEST: alive elapsed=48
+SNAPSHOT-GUEST: alive elapsed=50
+SNAPSHOT-GUEST: alive elapsed=52
+SNAPSHOT-GUEST: alive elapsed=54
+SNAPSHOT-GUEST: alive elapsed=56
+SNAPSHOT-GUEST: alive elapsed=58
+SNAPSHOT-GUEST: alive elapsed=60
+SNAPSHOT-GUEST: alive elapsed=62
+SNAPSHOT-GUEST: alive elapsed=64
+SNAPSHOT-GUEST: alive elapsed=66
+SNAPSHOT-GUEST: alive elapsed=68
+SNAPSHOT-GUEST: alive elapsed=70
+SNAPSHOT-GUEST: alive elapsed=72
+SNAPSHOT-GUEST: alive elapsed=74
+SNAPSHOT-GUEST: alive elapsed=76
+SNAPSHOT-GUEST: alive elapsed=78
+SNAPSHOT-GUEST: alive elapsed=80
+SNAPSHOT-GUEST: alive elapsed=82
+SNAPSHOT-GUEST: alive elapsed=84
+SNAPSHOT-GUEST: alive elapsed=86
+SNAPSHOT-GUEST: alive elapsed=88
+SNAPSHOT-GUEST: alive elapsed=90
+SNAPSHOT-GUEST: alive elapsed=92
+SNAPSHOT-GUEST: alive elapsed=94
+SNAPSHOT-GUEST: alive elapsed=96
+SNAPSHOT-GUEST: alive elapsed=98
+SNAPSHOT-GUEST: alive elapsed=100
+  found init in pslist
+  found snapw0 in pslist
+  found snapw1 in pslist
+  found snapw2 in pslist
+  found snapw3 in pslist
+===== mode C =====
+building OVMF for mode C
+booting guest for mode C (100s after boot)
+output   : /home/aditya/snapshot-forensics/out/bench/run-C
+accel    : kvm
+memory   : 1G (1073741824 bytes)
+OVMF code: /home/aditya/snapshot-forensics/out/bench/OVMF_CODE-C.fd
+guest booted; running 100s
+dumping 1073741824 bytes to /home/aditya/snapshot-forensics/out/bench/run-C/ram.raw
+p[K[Dpm[K[D[Dpme[K[D[D[Dpmem[K[D[D[D[Dpmems[K[D[D[D[D[Dpmemsa[K[D[D[D[D[D[Dpmemsav[K[D[D[D[D[D[D[Dpmemsave[K[D[D[D[D[D[D[D[Dpmemsave [K[D[D[D[D[D[D[D[D[Dpmemsave 0[K[D[D[D[D[D[D[D[D[D[Dpmemsave 0 [K[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1[K[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 10[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 107[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 10737[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 107374[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 10737418[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 107374182[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/h[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/ho[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/hom[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/a[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/ad[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/adi[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/adit[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/adity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/s[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/sn[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/sna[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snap[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snaps[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapsh[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapsho[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-f[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-fo[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-for[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-fore[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-foren[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forens[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensi[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensic[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/o[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/ou[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/b[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/be[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/ben[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/benc[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/r[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/ru[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-C[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-C/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-C/r[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-C/ra[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-C/ram[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-C/ram.[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-C/ram.r[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-C/ram.ra[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-C/ram.raw[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-C/ram.raw"[K
+(qemu) q[K[Dqu[K[D[Dqui[K[D[D[Dquit[K
+serial   : /home/aditya/snapshot-forensics/out/bench/run-C/serial.log
+-rw-r--r-- 1 aditya aditya 1.0G Nov 22 12:43 /home/aditya/snapshot-forensics/out/bench/run-C/ram.raw
+extracting snapshot for mode C
+snapshot seq=12 mode=C-dirty state=ready
+  slots applied : 5
+  pages         : 114392 (109016 unique, 425.8 MiB)
+  coverage      : 100.0% of 109016 pages
+  hash mismatch : 0
+  image         : /home/aditya/snapshot-forensics/out/bench/extract-C/ram-12-C.raw
+  metadata      : /home/aditya/snapshot-forensics/out/bench/extract-C/snapshot-12-C.json
+validating forensics for mode C
+== volatility3 linux.pslist ==
+Progress:    0.00		Scanning FileLayer using BytesScannerProgress:    1.67		Scanning FileLayer using BytesScannerProgress:    3.34		Scanning FileLayer using BytesScannerProgress:    5.00		Scanning FileLayer using BytesScannerProgress:    6.67		Scanning FileLayer using BytesScannerProgress:    0.00		Scanning FileLayer using BytesScannerProgress:    1.67		Scanning FileLayer using BytesScannerProgress:    3.34		Scanning FileLayer using BytesScannerProgress:    5.00		Scanning FileLayer using BytesScannerProgress:  100.00		Stacking attempts finished           Volatility 3 Framework 2.28.2
+
+OFFSET (V)	PID	TID	PPID	COMM	UID	GID	EUID	EGID	CREATION TIME	File output
+
+0x888001b39000	1	1	0	init	0	0	0	0	2026-11-22 07:11:29.068904 UTC	Disabled
+0x888001b3a000	2	2	0	kthreadd	0	0	0	0	2026-11-22 07:11:29.068904 UTC	Disabled
+0x888001b3b000	3	3	2	pool_workqueue_	0	0	0	0	2026-11-22 07:11:29.069904 UTC	Disabled
+0x888001b3c000	4	4	2	kworker/R-kvfre	0	0	0	0	2026-11-22 07:11:29.069904 UTC	Disabled
+0x888001b3d000	5	5	2	kworker/R-rcu_g	0	0	0	0	2026-11-22 07:11:29.069904 UTC	Disabled
+0x888001b3e000	6	6	2	kworker/R-sync_	0	0	0	0	2026-11-22 07:11:29.069904 UTC	Disabled
+0x888001b3f000	7	7	2	kworker/R-slub_	0	0	0	0	2026-11-22 07:11:29.069904 UTC	Disabled
+0x888037f00000	8	8	2	kworker/R-netns	0	0	0	0	2026-11-22 07:11:29.069904 UTC	Disabled
+0x888037f01000	9	9	2	kworker/0:0	0	0	0	0	2026-11-22 07:11:29.069904 UTC	Disabled
+0x888037f02000	10	10	2	kworker/0:1	0	0	0	0	2026-11-22 07:11:29.069904 UTC	Disabled
+0x888037f03000	11	11	2	kworker/0:0H	0	0	0	0	2026-11-22 07:11:29.069904 UTC	Disabled
+0x888037f04000	12	12	2	kworker/u8:0	0	0	0	0	2026-11-22 07:11:29.069904 UTC	Disabled
+0x888037f05000	13	13	2	kworker/R-mm_pe	0	0	0	0	2026-11-22 07:11:29.069904 UTC	Disabled
+0x888037f06000	14	14	2	rcu_tasks_kthre	0	0	0	0	2026-11-22 07:11:29.069904 UTC	Disabled
+0x888037f07000	15	15	2	ksoftirqd/0	0	0	0	0	2026-11-22 07:11:29.075904 UTC	Disabled
+0x888037f08000	16	16	2	rcu_preempt	0	0	0	0	2026-11-22 07:11:29.077904 UTC	Disabled
+0x888037f09000	17	17	2	rcu_exp_par_gp_	0	0	0	0	2026-11-22 07:11:29.077904 UTC	Disabled
+0x888037f0a000	18	18	2	rcu_exp_gp_kthr	0	0	0	0	2026-11-22 07:11:29.077904 UTC	Disabled
+0x888037f0b000	19	19	2	migration/0	0	0	0	0	2026-11-22 07:11:29.078904 UTC	Disabled
+0x888037f0d000	20	20	2	cpuhp/0	0	0	0	0	2026-11-22 07:11:29.081904 UTC	Disabled
+0x888037f0e000	21	21	2	cpuhp/1	0	0	0	0	2026-11-22 07:11:29.082904 UTC	Disabled
+0x888037f0f000	22	22	2	migration/1	0	0	0	0	2026-11-22 07:11:29.082904 UTC	Disabled
+0x888037f18000	23	23	2	ksoftirqd/1	0	0	0	0	2026-11-22 07:11:29.082904 UTC	Disabled
+0x888037f19000	24	24	2	kworker/1:0	0	0	0	0	2026-11-22 07:11:29.082904 UTC	Disabled
+0x888037f1a000	25	25	2	kworker/1:0H	0	0	0	0	2026-11-22 07:11:29.082904 UTC	Disabled
+0x888037f1b000	26	26	2	kdevtmpfs	0	0	0	0	2026-11-22 07:11:29.086904 UTC	Disabled
+0x888037f1c000	27	27	2	kworker/R-inet_	0	0	0	0	2026-11-22 07:11:29.087904 UTC	Disabled
+0x888037f1d000	28	28	2	kauditd	0	0	0	0	2026-11-22 07:11:29.098904 UTC	Disabled
+0x888037f1e000	29	29	2	kworker/u8:1	0	0	0	0	2026-11-22 07:11:29.106904 UTC	Disabled
+0x888037f1f000	30	30	2	oom_reaper	0	0	0	0	2026-11-22 07:11:29.106904 UTC	Disabled
+0x888037f68000	31	31	2	kworker/R-write	0	0	0	0	2026-11-22 07:11:29.107904 UTC	Disabled
+0x888037f69000	32	32	2	kcompactd0	0	0	0	0	2026-11-22 07:11:29.107904 UTC	Disabled
+0x888037f6d000	33	33	2	kworker/R-kbloc	0	0	0	0	2026-11-22 07:11:29.110904 UTC	Disabled
+0x888004df1000	34	34	2	irq/9-acpi	0	0	0	0	2026-11-22 07:11:29.116904 UTC	Disabled
+0x888004df2000	35	35	2	kworker/1:1	0	0	0	0	2026-11-22 07:11:29.117904 UTC	Disabled
+0x888004dc8000	36	36	2	kworker/R-ata_s	0	0	0	0	2026-11-22 07:11:29.254904 UTC	Disabled
+0x888004e89000	37	37	2	kworker/R-md	0	0	0	0	2026-11-22 07:11:29.260904 UTC	Disabled
+0x888004dc9000	38	38	2	kworker/R-md_bi	0	0	0	0	2026-11-22 07:11:29.261904 UTC	Disabled
+0x888004e8a000	39	39	2	kworker/R-quota	0	0	0	0	2026-11-22 07:11:29.368269 UTC	Disabled
+0x888004ed4000	40	40	2	kworker/1:1H	0	0	0	0	2026-11-22 07:11:29.385775 UTC	Disabled
+0x888004e8c000	41	41	2	kworker/R-rpcio	0	0	0	0	2026-11-22 07:11:29.399369 UTC	Disabled
+0x888004e8d000	42	42	2	kworker/R-xprti	0	0	0	0	2026-11-22 07:11:29.399446 UTC	Disabled
+0x888004f58000	43	43	2	kworker/R-cfg80	0	0	0	0	2026-11-22 07:11:29.406567 UTC	Disabled
+0x888004f59000	44	44	2	kswapd0	0	0	0	0	2026-11-22 07:11:29.421894 UTC	Disabled
+0x888004e8e000	45	45	2	kworker/R-nfsio	0	0	0	0	2026-11-22 07:11:29.423600 UTC	Disabled
+0x888004f5a000	46	46	2	kworker/R-acpi_	0	0	0	0	2026-11-22 07:11:29.446843 UTC	Disabled
+0x88800507b000	47	47	2	scsi_eh_0	0	0	0	0	2026-11-22 07:11:29.479254 UTC	Disabled
+0x888004f5f000	48	48	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:11:29.479317 UTC	Disabled
+0x88800507c000	49	49	2	scsi_eh_1	0	0	0	0	2026-11-22 07:11:29.480157 UTC	Disabled
+0x88800507d000	50	50	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:11:29.480202 UTC	Disabled
+0x88800507e000	51	51	2	scsi_eh_2	0	0	0	0	2026-11-22 07:11:29.481034 UTC	Disabled
+0x888005280000	52	52	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:11:29.481091 UTC	Disabled
+0x88800507f000	53	53	2	scsi_eh_3	0	0	0	0	2026-11-22 07:11:29.481933 UTC	Disabled
+0x888005281000	54	54	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:11:29.481996 UTC	Disabled
+0x888005282000	55	55	2	scsi_eh_4	0	0	0	0	2026-11-22 07:11:29.482909 UTC	Disabled
+0x888005080000	56	56	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:11:29.482955 UTC	Disabled
+0x888005283000	57	57	2	scsi_eh_5	0	0	0	0	2026-11-22 07:11:29.483798 UTC	Disabled
+0x888005284000	58	58	2	kworker/R-scsi_	0	0	0	0	2026-11-22 07:11:29.483840 UTC	Disabled
+0x888005081000	59	59	2	kworker/u8:2	0	0	0	0	2026-11-22 07:11:29.496281 UTC	Disabled
+0x888005082000	60	60	2	kworker/u8:3	0	0	0	0	2026-11-22 07:11:29.496299 UTC	Disabled
+0x888005083000	61	61	2	kworker/u8:4	0	0	0	0	2026-11-22 07:11:29.496314 UTC	Disabled
+0x888005084000	62	62	2	kworker/u8:5	0	0	0	0	2026-11-22 07:11:29.496327 UTC	Disabled
+0x888005085000	63	63	2	kworker/u8:6	0	0	0	0	2026-11-22 07:11:29.496456 UTC	Disabled
+0x888005086000	64	64	2	kworker/0:2	0	0	0	0	2026-11-22 07:11:29.513409 UTC	Disabled
+0x888005087000	65	65	2	kworker/u8:7	0	0	0	0	2026-11-22 07:11:29.520428 UTC	Disabled
+0x8880052cd000	66	66	2	kworker/R-mld	0	0	0	0	2026-11-22 07:11:29.545073 UTC	Disabled
+0x8880052e8000	67	67	2	kworker/R-ipv6_	0	0	0	0	2026-11-22 07:11:29.545185 UTC	Disabled
+0x8880052f2000	69	69	2	kworker/0:1H	0	0	0	0	2026-11-22 07:11:29.578014 UTC	Disabled
+0x888005287000	70	70	1	snapw0	0	0	0	0	2026-11-22 07:11:29.907983 UTC	Disabled
+0x8880054b8000	71	71	1	snapw1	0	0	0	0	2026-11-22 07:11:29.908704 UTC	Disabled
+0x8880052f3000	72	72	1	snapw2	0	0	0	0	2026-11-22 07:11:29.910073 UTC	Disabled
+0x8880052f4000	73	73	1	snapw3	0	0	0	0	2026-11-22 07:11:29.910138 UTC	Disabled
+
+== cross-check against guest serial log ==
+SNAPSHOT-GUEST: booted, init pid=1 write_heavy=0 crash_after=0
+SNAPSHOT-GUEST: worker 0 pid=70
+SNAPSHOT-GUEST: worker 1 pid=71
+SNAPSHOT-GUEST: worker 2 pid=72
+SNAPSHOT-GUEST: worker 3 pid=73
+SNAPSHOT-GUEST: alive elapsed=2
+SNAPSHOT-GUEST: alive elapsed=4
+SNAPSHOT-GUEST: alive elapsed=6
+SNAPSHOT-GUEST: alive elapsed=8
+SNAPSHOT-GUEST: alive elapsed=10
+SNAPSHOT-GUEST: alive elapsed=12
+SNAPSHOT-GUEST: alive elapsed=14
+SNAPSHOT-GUEST: alive elapsed=16
+SNAPSHOT-GUEST: alive elapsed=18
+SNAPSHOT-GUEST: alive elapsed=20
+SNAPSHOT-GUEST: alive elapsed=22
+SNAPSHOT-GUEST: alive elapsed=24
+SNAPSHOT-GUEST: alive elapsed=26
+SNAPSHOT-GUEST: alive elapsed=28
+SNAPSHOT-GUEST: alive elapsed=30
+SNAPSHOT-GUEST: alive elapsed=32
+SNAPSHOT-GUEST: alive elapsed=34
+SNAPSHOT-GUEST: alive elapsed=36
+SNAPSHOT-GUEST: alive elapsed=38
+SNAPSHOT-GUEST: alive elapsed=40
+SNAPSHOT-GUEST: alive elapsed=42
+SNAPSHOT-GUEST: alive elapsed=44
+SNAPSHOT-GUEST: alive elapsed=46
+SNAPSHOT-GUEST: alive elapsed=48
+SNAPSHOT-GUEST: alive elapsed=50
+SNAPSHOT-GUEST: alive elapsed=52
+SNAPSHOT-GUEST: alive elapsed=54
+SNAPSHOT-GUEST: alive elapsed=56
+SNAPSHOT-GUEST: alive elapsed=58
+SNAPSHOT-GUEST: alive elapsed=60
+SNAPSHOT-GUEST: alive elapsed=62
+SNAPSHOT-GUEST: alive elapsed=64
+SNAPSHOT-GUEST: alive elapsed=66
+SNAPSHOT-GUEST: alive elapsed=68
+SNAPSHOT-GUEST: alive elapsed=70
+SNAPSHOT-GUEST: alive elapsed=72
+SNAPSHOT-GUEST: alive elapsed=74
+SNAPSHOT-GUEST: alive elapsed=76
+SNAPSHOT-GUEST: alive elapsed=78
+SNAPSHOT-GUEST: alive elapsed=80
+SNAPSHOT-GUEST: alive elapsed=82
+SNAPSHOT-GUEST: alive elapsed=84
+SNAPSHOT-GUEST: alive elapsed=86
+SNAPSHOT-GUEST: alive elapsed=88
+SNAPSHOT-GUEST: alive elapsed=90
+SNAPSHOT-GUEST: alive elapsed=92
+SNAPSHOT-GUEST: alive elapsed=94
+SNAPSHOT-GUEST: alive elapsed=96
+SNAPSHOT-GUEST: alive elapsed=98
+SNAPSHOT-GUEST: alive elapsed=100
+  found init in pslist
+  found snapw0 in pslist
+  found snapw1 in pslist
+  found snapw2 in pslist
+  found snapw3 in pslist
+===== mode D =====
+building OVMF for mode D
+booting guest for mode D (170s after boot)
+output   : /home/aditya/snapshot-forensics/out/bench/run-D
+accel    : kvm
+memory   : 1G (1073741824 bytes)
+OVMF code: /home/aditya/snapshot-forensics/out/bench/OVMF_CODE-D.fd
+guest booted; running 170s
+dumping 1073741824 bytes to /home/aditya/snapshot-forensics/out/bench/run-D/ram.raw
+p[K[Dpm[K[D[Dpme[K[D[D[Dpmem[K[D[D[D[Dpmems[K[D[D[D[D[Dpmemsa[K[D[D[D[D[D[Dpmemsav[K[D[D[D[D[D[D[Dpmemsave[K[D[D[D[D[D[D[D[Dpmemsave [K[D[D[D[D[D[D[D[D[Dpmemsave 0[K[D[D[D[D[D[D[D[D[D[Dpmemsave 0 [K[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1[K[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 10[K[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 107[K[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 10737[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 107374[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 10737418[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 107374182[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 [K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/h[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/ho[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/hom[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/a[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/ad[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/adi[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/adit[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/adity[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/s[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/sn[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/sna[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snap[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snaps[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapsh[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapsho[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-f[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-fo[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-for[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-fore[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-foren[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forens[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensi[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensic[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/o[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/ou[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/b[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/be[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/ben[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/benc[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/r[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/ru[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-D[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-D/[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-D/r[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-D/ra[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-D/ram[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-D/ram.[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-D/ram.r[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-D/ram.ra[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-D/ram.raw[K[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dpmemsave 0 1073741824 "/home/aditya/snapshot-forensics/out/bench/run-D/ram.raw"[K
+(qemu) q[K[Dqu[K[D[Dqui[K[D[D[Dquit[K
+serial   : /home/aditya/snapshot-forensics/out/bench/run-D/serial.log
+-rw-r--r-- 1 aditya aditya 1.0G Nov 22 12:46 /home/aditya/snapshot-forensics/out/bench/run-D/ram.raw
+extracting snapshot for mode D
+no complete full snapshot yet (state=capturing)
+mode D did not produce a complete snapshot; skipping validation
+scripts/benchmark.sh: line 122: syntax error near unexpected token `('

@@ -1,0 +1,9 @@
+WORKSPACE: /home/aditya/snapshot-forensics/edk2
+EDK_TOOLS_PATH: /home/aditya/snapshot-forensics/edk2/BaseTools
+CONF_PATH: /home/aditya/snapshot-forensics/edk2/Conf
+Copying $EDK_TOOLS_PATH/Conf/build_rule.template
+     to /home/aditya/snapshot-forensics/edk2/Conf/build_rule.txt
+Copying $EDK_TOOLS_PATH/Conf/tools_def.template
+     to /home/aditya/snapshot-forensics/edk2/Conf/tools_def.txt
+Copying $EDK_TOOLS_PATH/Conf/target.template
+     to /home/aditya/snapshot-forensics/edk2/Conf/target.txt

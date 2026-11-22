@@ -1,0 +1,21 @@
+# EDK II clone and local toolchain builds (reproduced by scripts/setup_edk2.sh)
+/edk2/
+/tools/
+
+# Captured dumps, extracted images, ISF, analyzed output (reproduced by scripts)
+/out/
+
+# Guest kernel source/build and ESP image (reproduced by scripts/build_guest.sh)
+/guest/kbuild/
+/guest/linux-6.12.58/
+/guest/linux-6.12.58.tar.xz
+/guest/esp.img
+/guest/init
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Editor/OS noise
+.DS_Store
+*.swp

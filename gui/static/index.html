@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SMM Snapshot Forensics</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="logo">S</span> SMM Snapshot Forensics</div>
+    <div class="run-picker">
+      <select id="run-select" title="Select a RAM dump"></select>
+      <button id="btn-refresh" title="Re-scan out/">Refresh</button>
+      <button id="btn-analyze" class="primary" title="Extract and run Volatility">Analyze</button>
+    </div>
+  </header>
+  <div class="layout">
+    <aside>
+      <div class="side-head">Captured runs</div>
+      <div id="run-list"></div>
+      <div class="side-foot muted" id="side-foot" style="font-size:11px;margin-top:12px"></div>
+    </aside>
+    <main>
+      <nav class="tabs" id="tabs"></nav>
+      <section id="view"><div class="empty">Loading runs…</div></section>
+    </main>
+  </div>
+  <div id="toast"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

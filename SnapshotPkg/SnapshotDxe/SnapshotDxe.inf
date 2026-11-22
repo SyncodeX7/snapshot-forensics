@@ -1,0 +1,55 @@
+## @file
+#  Reserves the snapshot ring buffer and transfers its configuration to SMM.
+#
+#  Copyright (c) 2026
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+##
+
+[Defines]
+  INF_VERSION                    = 1.29
+  BASE_NAME                      = SnapshotDxe
+  FILE_GUID                      = 0B7C1A52-6D3E-4F81-9A2C-5E7D1B4F8C63
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 0.1
+  ENTRY_POINT                    = SnapshotDxeEntryPoint
+
+[Sources]
+  SnapshotDxe.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  SnapshotPkg/SnapshotPkg.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  UefiBootServicesTableLib
+  UefiLib
+  BaseLib
+  BaseMemoryLib
+  MemoryAllocationLib
+  DebugLib
+  PcdLib
+
+[Protocols]
+  gEfiSmmCommunicationProtocolGuid    ## CONSUMES
+  gEfiDxeSmmReadyToLockProtocolGuid   ## CONSUMES
+
+[Guids]
+  gSnapshotConfigGuid                 ## CONSUMES
+
+[Pcd]
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotMode
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotBufferSize
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotPeriodSeconds
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotMaxPagesPerSmi
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotDeltaSlots
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotIncludeReclaimable
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotFullEvery
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotTscHz
+
+[FeaturePcd]
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotEnable
+
+[Depex]
+  gEfiSmmCommunicationProtocolGuid

@@ -1,0 +1,234 @@
+make[1]: Entering directory '/home/aditya/snapshot-forensics/tools/acpica-R2025_04_04/generate/unix/iasl'
+-  m4           Preprocess main iASL parser
+-  bison        ../../../source/compiler/dtparser.y
+-  bison        ../../../source/compiler/dtparser.y
+-  bison        ../../../source/compiler/dtcompilerparser.y
+-  bison        ../../../source/compiler/dtcompilerparser.y
+-  bison        ../../../source/compiler/prparser.y
+-  bison        ../../../source/compiler/prparser.y
+-  bison        obj/aslcompiler.y
+-  bison        obj/aslcompiler.y
+/home/aditya/snapshot-forensics/tools/acpica-R2025_04_04/generate/unix/iasl/obj/aslcompiler.y:211.1-7: warning: POSIX Yacc does not support %expect [-Wyacc]
+  211 | %expect 134
+      | ^~~~~~~
+/home/aditya/snapshot-forensics/tools/acpica-R2025_04_04/generate/unix/iasl/obj/aslcompiler.y:211.1-7: warning: POSIX Yacc does not support %expect [-Wyacc]
+  211 | %expect 134
+      | ^~~~~~~
+-  Intermediate obj/dtcompilerparserparse.c
+-  flex         ../../../source/compiler/dtcompilerparser.l
+-  Intermediate obj/dtcompilerparserlex.c
+-  Intermediate obj/dtparserparse.c
+-  flex         ../../../source/compiler/dtparser.l
+-  Intermediate obj/dtparserlex.c
+-  Intermediate obj/prparserparse.c
+-  flex         ../../../source/compiler/prparser.l
+-  Intermediate obj/prparserlex.c
+obj/iasl ../../../source/common/acfileio.c
+-  flex         ../../../source/compiler/aslcompiler.l
+obj/iasl ../../../source/common/adfile.c
+obj/iasl ../../../source/common/adisasm.c
+obj/iasl ../../../source/common/adwalk.c
+obj/iasl ../../../source/common/ahids.c
+obj/iasl ../../../source/common/ahpredef.c
+obj/iasl ../../../source/common/ahtable.c
+obj/iasl ../../../source/common/ahuuids.c
+obj/iasl ../../../source/compiler/aslanalyze.c
+obj/iasl ../../../source/compiler/aslallocate.c
+obj/iasl ../../../source/compiler/aslascii.c
+obj/iasl ../../../source/compiler/aslbtypes.c
+obj/iasl ../../../source/compiler/aslcache.c
+obj/iasl ../../../source/compiler/aslcodegen.c
+obj/iasl ../../../source/compiler/aslcompile.c
+obj/iasl ../../../source/compiler/asldebug.c
+obj/iasl ../../../source/compiler/aslerror.c
+obj/iasl ../../../source/compiler/aslexternal.c
+obj/iasl ../../../source/compiler/aslfileio.c
+obj/iasl ../../../source/compiler/aslfiles.c
+obj/iasl ../../../source/compiler/aslfold.c
+obj/iasl ../../../source/compiler/aslhelp.c
+obj/iasl ../../../source/compiler/aslhex.c
+obj/iasl ../../../source/compiler/asllength.c
+obj/iasl ../../../source/compiler/asllisting.c
+obj/iasl ../../../source/compiler/asllistsup.c
+obj/iasl ../../../source/compiler/aslload.c
+obj/iasl ../../../source/compiler/asllookup.c
+obj/iasl ../../../source/compiler/aslmain.c
+obj/iasl ../../../source/compiler/aslmap.c
+obj/iasl ../../../source/compiler/aslmapenter.c
+obj/iasl ../../../source/compiler/aslmapoutput.c
+obj/iasl ../../../source/compiler/aslmaputils.c
+obj/iasl ../../../source/compiler/aslmessages.c
+obj/iasl ../../../source/compiler/aslmethod.c
+obj/iasl ../../../source/compiler/aslnamesp.c
+obj/iasl ../../../source/compiler/asloffset.c
+obj/iasl ../../../source/compiler/aslopcodes.c
+obj/iasl ../../../source/compiler/asloperands.c
+obj/iasl ../../../source/compiler/aslopt.c
+obj/iasl ../../../source/compiler/asloptions.c
+obj/iasl ../../../source/compiler/aslparseop.c
+obj/iasl ../../../source/compiler/aslpredef.c
+obj/iasl ../../../source/compiler/aslprepkg.c
+obj/iasl ../../../source/compiler/aslprintf.c
+obj/iasl ../../../source/compiler/aslprune.c
+obj/iasl ../../../source/compiler/aslresource.c
+obj/iasl ../../../source/compiler/aslrestype1.c
+obj/iasl ../../../source/compiler/aslrestype1i.c
+obj/iasl ../../../source/compiler/aslrestype2.c
+obj/iasl ../../../source/compiler/aslrestype2d.c
+obj/iasl ../../../source/compiler/aslrestype2e.c
+obj/iasl ../../../source/compiler/aslrestype2q.c
+obj/iasl ../../../source/compiler/aslrestype2s.c
+obj/iasl ../../../source/compiler/aslrestype2w.c
+obj/iasl ../../../source/compiler/aslstartup.c
+obj/iasl ../../../source/compiler/aslstubs.c
+obj/iasl ../../../source/compiler/aslpld.c
+obj/iasl ../../../source/compiler/asltransform.c
+obj/iasl ../../../source/compiler/asltree.c
+obj/iasl ../../../source/compiler/aslutils.c
+obj/iasl ../../../source/compiler/asluuid.c
+obj/iasl ../../../source/compiler/aslwalks.c
+obj/iasl ../../../source/compiler/aslxref.c
+obj/iasl ../../../source/compiler/aslxrefout.c
+obj/iasl ../../../source/compiler/cvcompiler.c
+obj/iasl ../../../source/compiler/cvdisasm.c
+obj/iasl ../../../source/compiler/cvparser.c
+obj/iasl ../../../source/common/cmfsize.c
+obj/iasl ../../../source/components/debugger/dbfileio.c
+obj/iasl ../../../source/components/disassembler/dmbuffer.c
+obj/iasl ../../../source/components/disassembler/dmcstyle.c
+obj/iasl ../../../source/components/disassembler/dmdeferred.c
+obj/iasl ../../../source/common/dmextern.c
+obj/iasl ../../../source/components/disassembler/dmnames.c
+obj/iasl ../../../source/components/disassembler/dmopcode.c
+obj/iasl ../../../source/components/disassembler/dmresrc.c
+obj/iasl ../../../source/components/disassembler/dmresrcl.c
+obj/iasl ../../../source/components/disassembler/dmresrcl2.c
+obj/iasl ../../../source/components/disassembler/dmresrcs.c
+obj/iasl ../../../source/common/dmrestag.c
+obj/iasl ../../../source/common/dmswitch.c
+obj/iasl ../../../source/common/dmtable.c
+obj/iasl ../../../source/common/dmtables.c
+obj/iasl ../../../source/common/dmtbdump.c
+obj/iasl ../../../source/common/dmtbdump1.c
+obj/iasl ../../../source/common/dmtbdump2.c
+obj/iasl ../../../source/common/dmtbdump3.c
+obj/iasl ../../../source/common/dmtbinfo.c
+obj/iasl ../../../source/common/dmtbinfo1.c
+obj/iasl ../../../source/common/dmtbinfo2.c
+obj/iasl ../../../source/common/dmtbinfo3.c
+obj/iasl ../../../source/components/disassembler/dmutils.c
+obj/iasl ../../../source/components/disassembler/dmwalk.c
+obj/iasl ../../../source/components/dispatcher/dsargs.c
+obj/iasl ../../../source/components/dispatcher/dscontrol.c
+obj/iasl ../../../source/components/dispatcher/dsfield.c
+obj/iasl ../../../source/components/dispatcher/dsobject.c
+obj/iasl ../../../source/components/dispatcher/dsopcode.c
+obj/iasl ../../../source/components/dispatcher/dspkginit.c
+obj/iasl ../../../source/components/dispatcher/dsutils.c
+obj/iasl ../../../source/components/dispatcher/dswexec.c
+obj/iasl ../../../source/components/dispatcher/dswload.c
+obj/iasl ../../../source/components/dispatcher/dswload2.c
+obj/iasl ../../../source/components/dispatcher/dswscope.c
+obj/iasl ../../../source/components/dispatcher/dswstate.c
+obj/iasl ../../../source/compiler/dtcompile.c
+obj/iasl ../../../source/compiler/dtexpress.c
+obj/iasl ../../../source/compiler/dtfield.c
+obj/iasl ../../../source/compiler/dtio.c
+obj/iasl ../../../source/compiler/dtsubtable.c
+obj/iasl ../../../source/compiler/dttable.c
+obj/iasl ../../../source/compiler/dttable1.c
+obj/iasl ../../../source/compiler/dttable2.c
+obj/iasl ../../../source/compiler/dttemplate.c
+obj/iasl ../../../source/compiler/dtutils.c
+obj/iasl ../../../source/components/executer/exconcat.c
+obj/iasl ../../../source/components/executer/exconvrt.c
+obj/iasl ../../../source/components/executer/excreate.c
+obj/iasl ../../../source/components/executer/exdump.c
+obj/iasl ../../../source/components/executer/exmisc.c
+obj/iasl ../../../source/components/executer/exmutex.c
+obj/iasl ../../../source/components/executer/exnames.c
+obj/iasl ../../../source/components/executer/exoparg1.c
+obj/iasl ../../../source/components/executer/exoparg2.c
+obj/iasl ../../../source/components/executer/exoparg3.c
+obj/iasl ../../../source/components/executer/exoparg6.c
+obj/iasl ../../../source/components/executer/exprep.c
+obj/iasl ../../../source/components/executer/exregion.c
+obj/iasl ../../../source/components/executer/exresnte.c
+obj/iasl ../../../source/components/executer/exresolv.c
+obj/iasl ../../../source/components/executer/exresop.c
+obj/iasl ../../../source/components/executer/exstore.c
+obj/iasl ../../../source/components/executer/exstoren.c
+obj/iasl ../../../source/components/executer/exstorob.c
+obj/iasl ../../../source/components/executer/exsystem.c
+obj/iasl ../../../source/components/executer/exutils.c
+obj/iasl ../../../source/common/getopt.c
+obj/iasl ../../../source/components/namespace/nsaccess.c
+obj/iasl ../../../source/components/namespace/nsalloc.c
+obj/iasl ../../../source/components/namespace/nsdump.c
+obj/iasl ../../../source/components/namespace/nsnames.c
+obj/iasl ../../../source/components/namespace/nsobject.c
+obj/iasl ../../../source/components/namespace/nsparse.c
+obj/iasl ../../../source/components/namespace/nssearch.c
+obj/iasl ../../../source/components/namespace/nsutils.c
+obj/iasl ../../../source/components/namespace/nswalk.c
+obj/iasl ../../../source/components/namespace/nsxfobj.c
+obj/iasl ../../../source/os_specific/service_layers/osunixxf.c
+obj/iasl ../../../source/compiler/prexpress.c
+obj/iasl ../../../source/compiler/prmacros.c
+obj/iasl ../../../source/compiler/prscan.c
+obj/iasl ../../../source/compiler/prutils.c
+obj/iasl ../../../source/components/parser/psargs.c
+obj/iasl ../../../source/components/parser/psloop.c
+obj/iasl ../../../source/components/parser/psobject.c
+obj/iasl ../../../source/components/parser/psopcode.c
+obj/iasl ../../../source/components/parser/psopinfo.c
+obj/iasl ../../../source/components/parser/psparse.c
+obj/iasl ../../../source/components/parser/psscope.c
+obj/iasl ../../../source/components/parser/pstree.c
+obj/iasl ../../../source/components/parser/psutils.c
+obj/iasl ../../../source/components/parser/pswalk.c
+obj/iasl ../../../source/components/tables/tbdata.c
+obj/iasl ../../../source/components/tables/tbfadt.c
+obj/iasl ../../../source/components/tables/tbinstal.c
+obj/iasl ../../../source/components/tables/tbprint.c
+obj/iasl ../../../source/components/tables/tbutils.c
+obj/iasl ../../../source/components/tables/tbxface.c
+obj/iasl ../../../source/components/tables/tbxfload.c
+obj/iasl ../../../source/components/utilities/utaddress.c
+obj/iasl ../../../source/components/utilities/utalloc.c
+obj/iasl ../../../source/components/utilities/utascii.c
+obj/iasl ../../../source/components/utilities/utbuffer.c
+obj/iasl ../../../source/components/utilities/utcache.c
+obj/iasl ../../../source/components/utilities/utcksum.c
+obj/iasl ../../../source/components/utilities/utcopy.c
+obj/iasl ../../../source/components/utilities/utdebug.c
+obj/iasl ../../../source/components/utilities/utdecode.c
+obj/iasl ../../../source/components/utilities/utdelete.c
+obj/iasl ../../../source/components/utilities/uterror.c
+obj/iasl ../../../source/components/utilities/utexcep.c
+obj/iasl ../../../source/components/utilities/utglobal.c
+obj/iasl ../../../source/components/utilities/uthex.c
+obj/iasl ../../../source/components/utilities/utinit.c
+obj/iasl ../../../source/components/utilities/utlock.c
+obj/iasl ../../../source/components/utilities/utmath.c
+obj/iasl ../../../source/components/utilities/utmisc.c
+obj/iasl ../../../source/components/utilities/utmutex.c
+obj/iasl ../../../source/components/utilities/utnonansi.c
+obj/iasl ../../../source/components/utilities/utobject.c
+obj/iasl ../../../source/components/utilities/utownerid.c
+obj/iasl ../../../source/components/utilities/utpredef.c
+obj/iasl ../../../source/components/utilities/utresdecode.c
+obj/iasl ../../../source/components/utilities/utresrc.c
+obj/iasl ../../../source/components/utilities/utstate.c
+obj/iasl ../../../source/components/utilities/utstrtoul64.c
+obj/iasl ../../../source/components/utilities/utstrsuppt.c
+obj/iasl ../../../source/components/utilities/utstring.c
+obj/iasl ../../../source/components/utilities/utuuid.c
+obj/iasl ../../../source/components/utilities/utxface.c
+obj/iasl ../../../source/components/utilities/utxferror.c
+-  Intermediate obj/aslcompilerlex.c
+-  Intermediate obj/aslcompilerparse.c
+- Link obj/iasl
+- Copy obj/iasl to ../bin/iasl
+make[1]: Leaving directory '/home/aditya/snapshot-forensics/tools/acpica-R2025_04_04/generate/unix/iasl'
+

@@ -1,0 +1,7 @@
+// *++
+//
+// SnapshotPkg package description.
+//
+// --*/
+#string STR_PACKAGE_ABSTRACT            #language en-US "Periodic firmware-level physical memory snapshots from SMM"
+#string STR_PACKAGE_DESCRIPTION         #language en-US "Captures physical RAM into a reserved ring buffer from a periodic SMI handler for crash/compromise forensics."

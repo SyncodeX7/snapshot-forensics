@@ -1,0 +1,363 @@
+Below the Operating System: Periodic
+Firmware-Level Memory Snapshots for Crash and
+Compromise Forensics
+Aditya Vardhan
+Independent exploratory study | October 2026
+Abstract. Tools that diagnose crashed or compromised computers usually depend on the very operating system
+(OS) they are trying to diagnose. A kernel that has panicked cannot be trusted to dump its own memory, and a
+kernel controlled by an attacker can lie to any software running inside it. This paper explores a firmware-level
+alternative: using System Management Mode (SMM), a CPU mode that is invisible to the OS, to take periodic
+snapshots of physical memory on a timer interrupt, independent of OS health. We define a threat model, lay out
+the design space (trigger, capture, change tracking, storage, consistency), compare the idea against existing
+memory-acquisition mechanisms, and present an analytical cost model suggesting that the choice of
+change-tracking strategy, not the copy itself, dominates overhead. We close with a concrete experimental plan
+using QEMU and OVMF. This is a design and analysis paper: no hardware implementation or
+measurements are reported, and every number in the cost model comes from stated, assumed parameters.
+Keywords: firmware, UEFI, System Management Mode, memory forensics, checkpointing, crash analysis,
+OS-independent security
+
+1. Introduction
+When a computer crashes, the first question is usually "what was it doing?" The answer lives in main memory:
+running processes, open network connections, loaded drivers, encryption keys, and the kernel's own data
+structures. Memory forensics, the practice of analysing a copy of RAM, can answer that question [8, 14], but it
+needs a good copy first.
+Getting that copy is harder than it sounds. Built-in crash dump facilities need the kernel to still be functioning
+well enough to write the dump. Software acquisition tools run inside the OS and are visible to, and can be
+deceived by, a compromised kernel. Hypervisor-based approaches [3] help, but only when the system runs in a
+virtual machine, and they enlarge the trusted computing base to include the hypervisor. Specialised hardware
+capture cards [6] avoid the OS but require physical access and advance planning.
+This paper asks a simple question: can the platform firmware itself take periodic snapshots of memory,
+from below the OS, so that a useful copy of system state exists even when the OS has crashed or been
+compromised? The mechanism that makes this conceivable is System Management Mode (SMM), which lets
+firmware code run on the CPU at any moment, hidden from the OS, in response to a system management
+interrupt (SMI) [11].
+Contributions. (1) We state a threat model and design goals for OS-independent periodic snapshotting. (2) We
+map the design space and identify the hard problems (change tracking, consistency versus stall time, storage,
+and snapshot confidentiality). (3) We compare the approach with existing mechanisms. (4) We give an
+analytical cost model with explicit assumptions. (5) We propose a reproducible experimental plan. We do not
+claim an implementation or measured results.
+
+2. Background
+2.1 Firmware and the boot-to-runtime handoff
+Modern PCs use UEFI firmware, which initialises hardware, builds a map of physical memory, and then loads
+an OS bootloader. After the handoff the OS owns memory management: it controls the page tables that the
+CPU's memory management unit uses for virtual memory and paging. Firmware keeps only a small runtime
+presence: a few runtime services, and SMM. This is why we focus on SMM: it is the one mechanism by which
+firmware regains control of the CPU after boot without the OS's cooperation.
+
+Below the Operating System
+
+1
+
+2.2 System Management Mode
+SMM is a special x86 operating mode entered when an SMI is raised. On entry, all CPU state is saved to a
+protected area, execution jumps to a firmware handler residing in a protected memory region called SMRAM,
+and the OS is paused entirely until the handler executes the resume instruction [11]. SMRAM is shielded from
+normal software by chipset and CPU range registers, and firmware normally locks these protections before
+booting the OS. Firmware implements SMM handlers through the UEFI PI SMM driver model [12]. SMIs can
+come from chipset timers, hardware events, or software triggers. SMM code can read physical memory
+broadly, which is what makes it attractive for snapshotting, and also what makes it dangerous: SMM has been
+studied as a platform for OS-independent malware [9], and early SMRAM protections were attacked, for
+example through CPU cache poisoning [10]. Any SMM-based feature therefore enlarges the attack surface and
+must be designed conservatively.
+
+2.3 Memory forensics
+Memory forensics tools such as Volatility [13] reconstruct OS state (process lists, network connections, loaded
+modules) by interpreting a raw physical memory image using knowledge of the OS's data structures [8]. The
+quality of the analysis depends on when and how consistently the image was captured. A periodic snapshot
+gives a time series of images instead of a single image.
+
+3. Threat Model and Design Goals
+Attacker. We assume an attacker (or fault) with full control of the OS kernel: it can modify kernel data
+structures, hide processes and modules, disable or tamper with in-OS diagnostics, and crash the machine. We
+also include the plain failure case: a kernel bug that hangs or panics the system with no attacker involved.
+Trust assumptions. The platform firmware is genuine and its flash storage is write-protected; SMRAM is
+locked before the OS starts; and the chipset provides lock bits that stop the OS from disabling or
+reprogramming the SMI source used for snapshots. Attacks on the firmware itself, physical attacks on RAM
+(such as cold-boot attacks [7]), and hardware implants are out of scope.
+Goals.
+• G1 OS independence: a snapshot is produced whether or not the OS is healthy.
+• G2 Integrity: a compromised OS cannot silently alter or delete stored snapshots.
+• G3 Bounded disruption: the stall each snapshot imposes is measurable and tunable.
+• G4 Forensic usefulness: snapshots can be analysed with existing memory forensics tools.
+• G5 Confidentiality: snapshots, which contain secrets, are themselves protected.
+
+Below the Operating System
+
+2
+
+4. Design Space
+
+Figure 1. Concept. A chipset timer raises an SMI; the SMM handler, running from hidden SMRAM, freezes the OS, reads
+physical RAM and writes a snapshot into a memory region reserved through the UEFI memory map so the OS does not use it.
+
+4.1 Trigger
+The natural trigger is a periodic SMI from a chipset timer, with the interval as the main tunable. To also catch
+crashes, a second trigger can fire an SMI from a watchdog or non-maskable interrupt when the system stops
+making progress, capturing a final snapshot at the moment of failure. A hybrid (periodic plus on-failure) gives
+both a history and a last-moment image.
+
+4.2 Capture and storage
+The handler copies selected physical pages into a snapshot region. The simplest option is a block of RAM that
+the firmware marks as reserved in the UEFI memory map so the OS will not allocate it. This is fast but volatile
+(lost on power loss) and limited in size, so it holds only a few recent snapshots in a ring buffer. Persisting to
+disk or non-volatile memory is more durable but much slower and requires firmware-level storage drivers,
+which are a serious complexity and attack-surface cost. Compression and de-duplication across snapshots can
+stretch limited space.
+
+4.3 Change tracking (the central problem)
+Copying all of RAM every interval is wasteful when most pages do not change. Firmware has no built-in list of
+changed pages, so three strategies are possible:
+• Full copy. Simple and robust; cost proportional to RAM size.
+• Hash-based incremental. Hash every page, compare with the previous snapshot's hashes, and copy only
+differences. This saves copy work but still must read all of memory each time.
+• Dirty-bit incremental. Walk the OS page tables (the page-table base is available from the CPU state saved
+on SMM entry), read each entry's hardware dirty flag, and copy only flagged pages. This is far cheaper to
+scan, but it has two serious problems: the OS also uses dirty flags, so clearing them from firmware could
+corrupt the OS's own bookkeeping, and cached address translations might hide later writes. Whether a
+non-intrusive variant exists (for example, recording flags without clearing them, or maintaining a shadow
+copy of the flags) is an open question that must be validated against the architecture manual [11] and tested
+experimentally.
+
+Below the Operating System
+
+3
+
+4.4 Consistency versus stall time
+Because SMM pauses every core, a snapshot taken in a single SMI is perfectly consistent: no page can change
+mid-copy. This is a genuine advantage over software approaches, which must fight a moving target. The cost is
+that the whole machine freezes for the duration. SMIs are generally treated as latency-sensitive events, and a
+freeze lasting hundreds of milliseconds or seconds (Section 6) can cause dropped network packets, missed
+real-time deadlines, or OS watchdog timeouts. The alternative is a sliced snapshot, copying a small portion per
+SMI over many SMIs, which keeps each stall short but gives up atomic consistency, since pages copied early
+may differ from pages copied late. A practical design must choose a point on this spectrum, and finding where
+analysis tools still work well on a sliced image is a good research question.
+
+4.5 Protecting the snapshots
+A memory snapshot is extremely sensitive: it can contain passwords, disk-encryption keys and private
+documents. Storing plaintext snapshots would create a new, high-value target. Snapshots should be encrypted
+with a key the OS cannot read, and the region should be inaccessible to the OS (reserved and, where hardware
+supports it, protected from OS writes) to meet goals G2 and G5.
+
+5. Comparison with Existing Mechanisms
+Mechanism
+
+Works if OS has
+crashed?
+
+Resists a compromised
+OS?
+
+Extra
+requirement
+
+Temporal
+coverage
+
+OS crash dump (e.g.
+kdump)
+
+Only if kernel can
+reach dump path
+
+No (runs inside OS)
+
+None
+
+At crash only
+
+In-OS acquisition tool
+
+No
+
+No (OS can deceive it)
+
+Software install
+
+On demand
+
+Hypervisor snapshot /
+introspection [3, 4]
+
+Yes (guest), if
+hypervisor is healthy
+
+Largely yes, trusts
+hypervisor
+
+Virtualisation
+
+Periodic possible
+
+Hardware capture device [6]
+
+Yes
+
+Mostly yes
+
+Special hardware,
+physical access
+
+On demand
+
+Periodic SMM snapshot
+(proposed)
+
+Yes
+
+Yes, if SMRAM and
+SMI source locked
+
+Firmware
+support
+
+Periodic + on
+failure
+
+Table 1. Qualitative comparison of memory-capture approaches. Entries summarise the design arguments in this paper, not
+measurements.
+
+Related work on SMM for monitoring includes HyperCheck [2] and HyperSentry [1], which use SMM to
+check the integrity of hypervisors, and checkpointing systems such as DMTCP [5] and Remus [4] show how
+incremental state capture can be made efficient. Our focus differs: periodic, OS-independent snapshots
+designed explicitly for post-crash and post-compromise forensics, with the stall-versus-consistency tradeoff as
+the central question.
+
+6. Analytical Cost Model
+To see which design choices matter, we estimate the stall per snapshot. These are back-of-the-envelope
+estimates from assumed parameters, not measurements, and real hardware could differ substantially (for
+example, memory caching behaviour in SMM, NUMA effects, and chipset limits).
+Let M be the RAM size, B the effective copy throughput (read plus write), R the read-only scan throughput, and
+f the fraction of pages modified since the last snapshot. Then:
+Full copy: Tfull = M / B
+Hash-based: Thash = M / R + f · M / B
+Dirty-bit: Tdirty = (page-table bytes) / R + f · M / B
+
+Below the Operating System
+
+4
+
+We assume M = 8 GiB, B = 5 GB/s, R = 10 GB/s, f = 5%, 4 KiB pages and 8-byte page-table entries (so about
+16 MiB of page-table entries to scan). Under these assumptions:
+Strategy
+
+Stall per snapshot
+
+Frozen time at 10 s
+interval
+
+Frozen time at 60 s
+interval
+
+Full copy
+
+1.72 s
+
+17.2%
+
+2.86%
+
+Hash-based incremental
+
+0.94 s
+
+9.4%
+
+1.57%
+
+Dirty-bit incremental
+
+88 ms
+
+0.9%
+
+0.15%
+
+Table 2. Modelled stall (assumed parameters; not measured).
+
+Figure 2. Modelled fraction of runtime spent frozen in SMM versus snapshot interval (M = 8 GiB, f = 5%, assumed
+throughputs as above). Both axes are logarithmic.
+
+Three observations follow from the model. First, a full copy of a modest 8 GiB machine freezes the system for
+well over a second, which is long enough to be disruptive. Second, hashing barely helps: because every page
+must still be read, the stall is bounded below by M / R. Third, scanning page-table entries is roughly an order of
+magnitude cheaper than scanning memory, which makes dirty-bit tracking the most promising strategy, if its
+correctness problems (Section 4.3) can be solved. Even then, the copy term f · M / B grows with how
+write-heavy the workload is, which motivates the sliced design from Section 4.4.
+
+7. Proposed Experimental Plan
+We propose to evaluate the design in emulation before considering real hardware, which is risky to experiment
+on and vendor-specific.
+Platform. QEMU with a Q35 machine type and SMM enabled, running OVMF (the EDK II UEFI firmware)
+with a custom SMM driver; a Linux guest; Volatility 3 [13] for analysis.
+Research questions.
+• RQ1 (crash): after a deliberately triggered kernel panic or hang, how much useful state does the latest
+snapshot contain compared with in-OS tools (such as kdump) and with an external hypervisor-level dump?
+• RQ2 (compromise): do snapshots preserve artefacts that analysis tools can recover from public, practice
+memory images used in forensics training? We deliberately use existing public sample images rather than
+writing any malicious software.
+• RQ3 (cost): how do stall time and guest throughput change with interval, snapshot size, and
+change-tracking strategy, and how closely do the results match the model in Section 6?
+• RQ4 (consistency): how much does analysis quality degrade when snapshots are sliced across multiple
+SMIs rather than taken atomically?
+
+Below the Operating System
+
+5
+
+Workloads and metrics. Idle, CPU-bound (e.g. stress-ng), memory-bound, and a key-value store under load
+(e.g. redis-benchmark). Metrics: per-snapshot stall, throughput and tail-latency change, snapshot size before
+and after compression, and fraction of forensic artefacts recovered. Each experiment is repeated and reported
+with variation, and QEMU's timing is acknowledged as an imperfect proxy for real hardware.
+
+8. Risks, Limitations and Ethics
+• Larger trusted base. Every line of SMM code is maximally privileged. A bug in the snapshot handler
+could become a vulnerability that defeats the very OS independence the design promises [9, 10].
+• Privacy. Snapshots capture everything in memory. Without strong encryption and access control the
+feature would be a surveillance and data-theft risk; deployment would need clear user consent.
+• Coverage gaps. Between snapshots, activity is invisible. An attacker who is short-lived or who cleans
+memory before the next snapshot may leave no trace.
+• Evasion and denial of service. An attacker might try to detect SMI timing, flood the system to exploit stall
+times, or exhaust the snapshot region. Locking the SMI source and using a ring buffer help but do not
+eliminate these.
+• Platform dependence. SMM and chipset behaviour differ across vendors, so results from one platform
+may not generalise.
+• Scope of this paper. The analysis here is a design study. The central claims (usefulness after crashes,
+acceptable overhead, soundness of change tracking) remain hypotheses until measured.
+
+9. Conclusion and Future Work
+Firmware-level periodic snapshots could give investigators something rarely available today: a history of
+memory that exists independently of the health of the operating system being investigated. The idea is
+architecturally plausible through SMM, but its practicality depends on solving change tracking, bounding stall
+time, and protecting the snapshots themselves. Our model suggests that page-table-based change tracking
+combined with sliced capture is the most promising direction. Next steps are to build the QEMU/OVMF
+prototype, validate the dirty-tracking question against the architecture documentation, and measure the real
+tradeoffs between stall, consistency, and forensic value.
+
+References
+[1] A. M. Azab, P. Ning, Z. Wang, X. Jiang, X. Zhang, N. C. Skalsky. HyperSentry: Enabling stealthy in-context measurement
+of hypervisor integrity. ACM CCS, 2010.
+[2] J. Wang, A. Stavrou, A. Ghosh. HyperCheck: A hardware-assisted integrity monitor. RAID, 2010.
+[3] T. Garfinkel, M. Rosenblum. A virtual machine introspection based architecture for intrusion detection. NDSS, 2003.
+[4] B. Cully, G. Lefebvre, D. Meyer, M. Feeley, N. Hutchinson, A. Warfield. Remus: High availability via asynchronous
+virtual machine replication. NSDI, 2008.
+[5] J. Ansel, K. Arya, G. Cooperman. DMTCP: Transparent checkpointing for cluster computations and the desktop. IEEE
+IPDPS, 2009.
+[6] B. D. Carrier, J. Grand. A hardware-based memory acquisition procedure for digital investigations. Digital Investigation,
+1(1), 2004.
+[7] J. A. Halderman et al. Lest we remember: Cold-boot attacks on encryption keys. USENIX Security, 2008.
+[8] M. H. Ligh, A. Case, J. Levy, A. Walters. The Art of Memory Forensics. Wiley, 2014.
+[9] S. Embleton, S. Sparks, C. Zou. SMM rootkits: A new breed of OS independent malware. SecureComm, 2008.
+[10] R. Wojtczuk, J. Rutkowska. Attacking SMM memory via Intel CPU cache poisoning. Invisible Things Lab, 2009.
+[11] Intel Corporation. Intel 64 and IA-32 Architectures Software Developer's Manual, Vol. 3 (chapter on System Management
+Mode).
+[12] UEFI Forum. UEFI Specification and Platform Initialization (PI) Specification (SMM driver model).
+[13] Volatility Foundation. Volatility 3 framework documentation.
+[14] S. Vomel, F. C. Freiling. A survey of main memory acquisition and analysis techniques for the Windows operating
+system. Digital Investigation, 8(1), 2011.
+
+Below the Operating System
+
+6
+
+

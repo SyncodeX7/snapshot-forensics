@@ -1,0 +1,58 @@
+## @file
+# SnapshotPkg - firmware-level periodic physical memory snapshots.
+#
+# Copyright (c) 2026
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+##
+
+[Defines]
+  DEC_SPECIFICATION = 0x00010005
+  PACKAGE_NAME      = SnapshotPkg
+  PACKAGE_UNI_FILE  = SnapshotPkg.uni
+  PACKAGE_GUID      = 5D2F8E14-3A7B-4C91-A26E-8F0D74B31955
+  PACKAGE_VERSION   = 0.1
+
+[Includes]
+  Include
+
+[Guids]
+  # Token space for all SnapshotPkg PCDs.
+  gSnapshotPkgTokenSpaceGuid = { 0x7B1E4C56, 0x2D9A, 0x4F08, { 0xA3, 0x5B, 0x8E, 0x21, 0x6C, 0xD4, 0x90, 0x37 } }
+
+  # GUID used as the SMM communication message type for SnapshotDxe ->
+  # SmmSnapshotDriver configuration transfer.
+  gSnapshotConfigGuid = { 0x9B3A7C21, 0x4E6D, 0x4F2A, { 0x8B, 0x1C, 0x7E, 0x5A, 0x93, 0x2D, 0x61, 0x40 } }
+
+[PcdsFixedAtBuild]
+  ## Capture mode: 0 = A (full), 1 = B (hash incremental),
+  #  2 = C (dirty/page-table), 3 = D (sliced full).
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotMode|0|UINT32|0x00010001
+
+  ## Maximum size of the EfiReservedMemoryType snapshot ring, in bytes.
+  #  The DXE driver clamps this to at most 60% of usable RAM.
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotBufferSize|0x14000000|UINT64|0x00010002
+
+  ## Requested snapshot period in seconds.  The Q35 periodic SMI source has
+  #  8/16/32/64 second granularity, so values below 8 are rounded up to 8.
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotPeriodSeconds|8|UINT32|0x00010003
+
+  ## Maximum pages copied per SMI (0 = unlimited).  Used by mode D and as a
+  #  throttle for modes B/C.
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotMaxPagesPerSmi|0|UINT32|0x00010004
+
+  ## Number of delta slots in modes B/C.
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotDeltaSlots|16|UINT32|0x00010005
+
+  ## Include EfiLoaderCode/EfiLoaderData ranges (needed for the Linux kernel
+  #  image under UEFI boot).  If FALSE only EfiConventionalMemory is captured.
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotIncludeReclaimable|TRUE|BOOLEAN|0x00010006
+
+  ## Force a full (base) snapshot every N snapshots in modes B/C.  0 disables.
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotFullEvery|8|UINT32|0x00010007
+
+  ## TSC frequency in Hz if known (0 = unknown, benchmark calibrates).
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotTscHz|0|UINT64|0x00010008
+
+[PcdsFeatureFlag]
+  ## Master enable for the snapshot package.
+  gSnapshotPkgTokenSpaceGuid.PcdSnapshotEnable|TRUE|BOOLEAN|0x00020001

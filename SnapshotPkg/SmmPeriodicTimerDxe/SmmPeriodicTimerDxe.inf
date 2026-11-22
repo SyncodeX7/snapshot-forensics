@@ -1,0 +1,41 @@
+## @file
+#  Minimal EFI_SMM_PERIODIC_TIMER_DISPATCH2_PRODUCER for QEMU Q35.
+#
+#  OVMF does not ship a periodic SMI timer producer.  QEMU's ICH9 emulation
+#  implements the chipset periodic SMI timer (GEN_PMCON_1 bits [1:0] select
+#  8/16/32/64 seconds, SMI_EN bit 14 enables it).  This driver enables that
+#  source, registers a root SMI handler, and exports the standard PI protocol.
+#
+#  Copyright (c) 2026
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+##
+
+[Defines]
+  INF_VERSION                    = 1.29
+  BASE_NAME                      = SmmPeriodicTimerDxe
+  FILE_GUID                      = 7E4B2D91-3C6A-4B58-8F1E-2A9D5C7E4B10
+  MODULE_TYPE                    = DXE_SMM_DRIVER
+  PI_SPECIFICATION_VERSION       = 0x00010400
+  VERSION_STRING                 = 0.1
+  ENTRY_POINT                    = SmmPeriodicTimerEntryPoint
+
+[Sources]
+  SmmPeriodicTimerDxe.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  BaseLib
+  DebugLib
+  IoLib
+  SmmServicesTableLib
+  MemoryAllocationLib
+
+[Protocols]
+  gEfiSmmPeriodicTimerDispatch2ProtocolGuid   ## PRODUCES
+  gEfiSmmCpuProtocolGuid                      ## CONSUMES
+
+[Depex]
+  TRUE

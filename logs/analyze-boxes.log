@@ -1,0 +1,17 @@
+== run: /home/aditya/snapshot-forensics/out/boxes
+== results: /home/aditya/snapshot-forensics/out/analyzed/boxes
+
+== extracting snapshot ==
+snapshot seq=8 mode=A-full state=ready
+  slots applied : 1
+  pages         : 109016 (109016 unique, 425.8 MiB)
+  coverage      : 100.0% of 109016 pages
+  hash mismatch : 0
+  image         : /home/aditya/snapshot-forensics/out/boxes/extract/ram-8.raw
+  metadata      : /home/aditya/snapshot-forensics/out/boxes/extract/snapshot-8.json
+== image: /home/aditya/snapshot-forensics/out/boxes/extract/ram-8.raw
+
+== volatility: linux.pslist ==
+
+== done: /home/aditya/snapshot-forensics/out/analyzed/boxes
+   hash mismatches: 0

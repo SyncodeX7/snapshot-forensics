@@ -1,0 +1,4 @@
+Loading previous configuration from /home/aditya/snapshot-forensics/edk2/Conf/BuildEnv.sh
+WORKSPACE: /home/aditya/snapshot-forensics/edk2
+EDK_TOOLS_PATH: /home/aditya/snapshot-forensics/edk2/BaseTools
+CONF_PATH: /home/aditya/snapshot-forensics/edk2/Conf
