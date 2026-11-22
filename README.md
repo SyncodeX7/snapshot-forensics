@@ -160,11 +160,11 @@ README:
 | `OVMF_CODE.fd` | 3.5 MiB | OVMF built with `SMM_REQUIRE=TRUE`, mode A, 8 s period |
 | `OVMF_VARS.fd` | 528 KiB | Matching variable-store template |
 | `esp.img` | 64 MiB | FAT32 ESP with the minimal Linux guest |
-| `linux-6.12.58.json` | 50 MiB | Volatility 3 ISF for the guest kernel |
-| `ram-12-A.raw.zst` | 52 MiB | Complete mode-A snapshot, 109,016 pages, zstd-compressed |
+| `linux-6.12.58.json` | 49 MiB | Volatility 3 ISF for the guest kernel |
+| `ram-12-A.raw.zst` | 51 MiB | Complete mode-A snapshot, 109,016 pages, zstd-compressed |
 | `snapshot-12-A.json` | 4 KiB | Extraction metadata for the sample (coverage, hashes) |
 | `sample-pslist.txt` | 8 KiB | Expected `linux.pslist` output for the sample |
-| `SHA256SUMS` | 1 KiB | Checksums for every asset |
+| `SHA256SUMS` | 569 B | Checksums for every asset |
 
 Verify and run the prebuilt firmware:
 
